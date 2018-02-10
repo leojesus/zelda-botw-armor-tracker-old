@@ -1,0 +1,13 @@
+.card {
+    font-size: 13px;
+    width: 96%;
+}
+
+.card-header {
+    border: 0;
+    padding-bottom:0px;
+}
+
+.form-check{
+    padding-top:5px;
+}

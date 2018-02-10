@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113486618-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-113486618-1');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl + '&gtm_auth=oT92UACyVSJNsGtX5_LkvQ&gtm_preview=env-6&gtm_cookies_win=x'; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-WH5ZWPP');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zelda Breath of the Wild - Armor Tracker</title>
+    <base href="~/" />
+    <link rel="shortcut icon" type="image/x-icon" href="~/dist/favicon.ico" />
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="~/dist/vendor.css" asp-append-version="true" />
+</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WH5ZWPP&gtm_auth=oT92UACyVSJNsGtX5_LkvQ&gtm_preview=env-6&gtm_cookies_win=x"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+        <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Zelda Breath of the Wild - Armor Tracker</a>
+
+        <ul class="navbar-nav px-3">
+            <li class="nav-item text-nowrap">
+               
+            </li>
+        </ul>
+    </nav>
+    @RenderBody()
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>

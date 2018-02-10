@@ -1,0 +1,32 @@
+<div class="row">
+    <div class="col-md-12 col-lg-10 col-sm-12">
+        <div class="card">
+            <div class="card-header">
+                <div class="form-group row" style="padding-left:10px;">
+                    <label for="exampleInputEmail1" class="col-form-label">
+                        Filter by
+                    </label>
+                    <div class="col-sm-4 col-lg-4 col-8">
+                        <input type="email" class="form-control form-control-sm" id="exampleInputEmail1"
+                               aria-describedby="emailHelp" placeholder="Armor name"
+                               [(ngModel)]="filter.name" (ngModelChange)="changeFiter()">
+                    </div>
+                    <div class="form-check col-sm-3">
+                        <input type="checkbox" class="form-check-input" id="cbObtained"
+                               [(ngModel)]="filter.onlyObtained" (ngModelChange)="changeFiter()">
+                        <label class="form-check-label" for="cbObtained">
+                            Show only obtained armors
+                        </label>
+                    </div>
+                    <div class="form-check col-sm-4">
+                        <input type="checkbox" class="form-check-input" id="cbUpgraded"
+                               [(ngModel)]="filter.onlyNotFullyUpgraded" (ngModelChange)="changeFiter()">
+                        <label class="form-check-label" for="cbUpgraded">
+                            Show only armors to be upgraded
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

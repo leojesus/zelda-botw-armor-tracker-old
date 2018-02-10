@@ -1,0 +1,507 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    <TypeScriptToolsVersion>Latest</TypeScriptToolsVersion>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Files not to publish (note that the 'dist' subfolders are re-added below) -->
+    <Content Remove="ClientApp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\armor.json" />
+    <Content Remove="wwwroot\images\BotW Amber Earrings Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Ancient Cuirass Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Ancient Greaves Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Ancient Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Barbarian Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Barbarian Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Barbarian Leg Wraps Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Bokoblin Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Cap of the Hero Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Cap of the Sky Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Cap of the Wild Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Cap of the Wind Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Cap of Time Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Cap of Twilight Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Champion's Tunic Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Climber's Bandanna Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Climbing Boots Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Climbing Gear Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Dark Hood Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Dark Trousers Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Dark Tunic Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Desert Voe Headband Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Desert Voe Spaulder Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Desert Voe Trousers Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Diamond Circlet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Fierce Deity Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Fierce Deity Boots Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Fierce Deity Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Flamebreaker Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Flamebreaker Boots Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Flamebreaker Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Gerudo Sirwal Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Gerudo Top Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Gerudo Veil Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Hylian Hood Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Hylian Trousers Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Hylian Tunic Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Island Lobster Shirt Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Korok Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Lizalfos Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Lynel Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Majora's Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Midna's Helmet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Moblin Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Nintendo Switch Shirt Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Old Shirt Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Opal Earrings Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Phantom Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Phantom Ganon Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Phantom Ganon Greaves Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Phantom Ganon Skull Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Phantom Greaves Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Phantom Helmet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Radiant Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Radiant Shirt Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Radiant Tights Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Ravio's Hood Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Royal Guard Boots Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Royal Guard Cap Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Royal Guard Uniform Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Rubber Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Rubber Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Rubber Tights Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Ruby Circlet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Salvager Headwear Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Salvager Trousers Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Salvager Vest Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Sand Boots Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Sapphire Circlet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Sheik's Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Snow Boots Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Snowquill Headdress Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Snowquill Trousers Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Snowquill Tunic Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Soldier's Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Soldier's Greaves Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Soldier's Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Stealth Chest Guard Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Stealth Mask Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Stealth Tights Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Thunder Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tingle's Hood Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tingle's Shirt Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tingle's Tights Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Topaz Earrings Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Trousers of the Hero Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Trousers of the Sky Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Trousers of the Wild Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Trousers of the Wind Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Trousers of Time Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Trousers of Twilight Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tunic of the Hero Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tunic of the Sky Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tunic of the Wild Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tunic of the Wind Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tunic of Time Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Tunic of Twilight Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Vah Medoh Divine Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Vah Naboris Divine Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Vah Rudania Divine Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Vah Ruta Divine Helm Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Warm Doublet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Well-Worn Trousers Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Zant's Helmet Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Zora Armor Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Zora Greaves Icon.png.png" />
+    <Content Remove="wwwroot\images\BotW Zora Helm Icon.png.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\armor.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Amber Earrings Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Ancient Cuirass Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Ancient Greaves Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Ancient Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Barbarian Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Barbarian Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Barbarian Leg Wraps Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Bokoblin Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Cap of the Hero Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Cap of the Sky Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Cap of the Wild Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Cap of the Wind Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Cap of Time Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Cap of Twilight Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Champion's Tunic Icon.png.png" />
+    <None Include="wwwroot\images\BotW Climber's Bandanna Icon.png.png" />
+    <None Include="wwwroot\images\BotW Climbing Boots Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Climbing Gear Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Dark Hood Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Dark Trousers Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Dark Tunic Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Desert Voe Headband Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Desert Voe Spaulder Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Desert Voe Trousers Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Diamond Circlet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Fierce Deity Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Fierce Deity Boots Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Fierce Deity Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Flamebreaker Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Flamebreaker Boots Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Flamebreaker Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Gerudo Sirwal Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Gerudo Top Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Gerudo Veil Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Hylian Hood Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Hylian Trousers Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Hylian Tunic Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Island Lobster Shirt Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Korok Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Lizalfos Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Lynel Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Majora's Mask Icon.png.png" />
+    <None Include="wwwroot\images\BotW Midna's Helmet Icon.png.png" />
+    <None Include="wwwroot\images\BotW Moblin Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Nintendo Switch Shirt Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Old Shirt Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Opal Earrings Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Phantom Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Phantom Ganon Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Phantom Ganon Greaves Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Phantom Ganon Skull Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Phantom Greaves Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Phantom Helmet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Radiant Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Radiant Shirt Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Radiant Tights Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Ravio's Hood Icon.png.png" />
+    <None Include="wwwroot\images\BotW Royal Guard Boots Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Royal Guard Cap Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Royal Guard Uniform Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Rubber Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Rubber Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Rubber Tights Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Ruby Circlet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Salvager Headwear Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Salvager Trousers Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Salvager Vest Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Sand Boots Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Sapphire Circlet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Sheik's Mask Icon.png.png" />
+    <None Include="wwwroot\images\BotW Snow Boots Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Snowquill Headdress Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Snowquill Trousers Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Snowquill Tunic Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Soldier's Armor Icon.png.png" />
+    <None Include="wwwroot\images\BotW Soldier's Greaves Icon.png.png" />
+    <None Include="wwwroot\images\BotW Soldier's Helm Icon.png.png" />
+    <None Include="wwwroot\images\BotW Stealth Chest Guard Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Stealth Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Stealth Tights Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Thunder Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tingle's Hood Icon.png.png" />
+    <None Include="wwwroot\images\BotW Tingle's Shirt Icon.png.png" />
+    <None Include="wwwroot\images\BotW Tingle's Tights Icon.png.png" />
+    <None Include="wwwroot\images\BotW Topaz Earrings Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Trousers of the Hero Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Trousers of the Sky Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Trousers of the Wild Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Trousers of the Wind Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Trousers of Time Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Trousers of Twilight Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tunic of the Hero Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tunic of the Sky Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tunic of the Wild Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tunic of the Wind Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tunic of Time Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Tunic of Twilight Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Vah Medoh Divine Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Vah Naboris Divine Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Vah Rudania Divine Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Vah Ruta Divine Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Warm Doublet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Well-Worn Trousers Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Zant's Helmet Icon.png.png" />
+    <None Include="wwwroot\images\BotW Zora Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Zora Greaves Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="wwwroot\images\BotW Zora Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="wwwroot\images\BotW Champion%27s Tunic Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Climber%27s Bandanna Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Majora%27s Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Midna%27s Helmet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Ravio%27s Hood Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Sheik%27s Mask Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Soldier%27s Armor Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Soldier%27s Greaves Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Soldier%27s Helm Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Tingle%27s Hood Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Tingle%27s Shirt Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Tingle%27s Tights Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="wwwroot\images\BotW Zant%27s Helmet Icon.png.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <Target Name="DebugRunWebpack" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('wwwroot\dist') ">
+    <!-- Ensure Node.js is installed -->
+    <Exec Command="node --version" ContinueOnError="true">
+      <Output TaskParameter="ExitCode" PropertyName="ErrorCode" />
+    </Exec>
+    <Error Condition="'$(ErrorCode)' != '0'" Text="Node.js is required to build and run this project. To continue, please install Node.js from https://nodejs.org/, and then restart your command prompt or IDE." />
+
+    <!-- In development, the dist files won't exist on the first run or when cloning to
+         a different machine, so rebuild them if not already present. -->
+    <Message Importance="high" Text="Performing first-run Webpack build..." />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js" />
+  </Target>
+
+  <Target Name="PublishRunWebpack" AfterTargets="ComputeFilesToPublish">
+    <!-- As part of publishing, ensure the JS resources are freshly built in production mode -->
+    <Exec Command="npm install" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --config webpack.config.vendor.js --env.prod" />
+    <Exec Command="node node_modules/webpack/bin/webpack.js --env.prod" />
+
+    <!-- Include the newly-built files in the publish output -->
+    <ItemGroup>
+      <DistFiles Include="wwwroot\dist\**; ClientApp\dist\**" />
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+        <RelativePath>%(DistFiles.Identity)</RelativePath>
+        <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      </ResolvedFileToPublish>
+    </ItemGroup>
+  </Target>
+
+</Project>

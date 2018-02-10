@@ -1,0 +1,3766 @@
+[
+  {
+    "name": "Ancient Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Ancient Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Ancient Cuirass",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Ancient Cuirass Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Ancient Greaves",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Ancient Greaves Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Barbarian Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Barbarian Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Lynel Guts",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Lynel Horn",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Shard of Dinraal's Horn",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Barbarian Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Barbarian Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Lynel Guts",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Lynel Horn",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Shard of Dinraal s Horn",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Barbarian Leg Wraps",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Barbarian Leg Wraps Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Lynel Guts",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Lynel Horn",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Shard of Dinraal's Horn",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Dark Hood",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Dark Hood Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Dark Tunic",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Dark Tunic Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Dark Trousers",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Dark Trousers Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Desert Voe Headband",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Desert Voe Headband Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Icy Lizalfos Tai",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Icy Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "White Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "White Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Desert Voe Spaulder",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Desert Voe Spaulder Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Icy Lizalfos Tai",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Icy Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "White Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "White Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Desert Voe Trousers",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Desert Voe Trousers Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Icy Lizalfos Tai",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Icy Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "White Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "White Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Flamebreaker Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Flamebreaker Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Fireproof Lizard",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Fireproof Lizard",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Hinox Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Fang",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Moblin Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Smotherwing Butterfly",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Smotherwing Butterfly",
+        "quantity": 8,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Flamebreaker Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Flamebreaker Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Fireproof Lizard",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Fireproof Lizard",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Hinox Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Fang",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Moblin Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Smotherwing Butterfly",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Smotherwing Butterfly",
+        "quantity": 8,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Flamebreaker Boots",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Flamebreaker Boots Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Fireproof Lizard",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Fireproof Lizard",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Hinox Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Fang",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Moblin Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Smotherwing Butterfly",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Smotherwing Butterfly",
+        "quantity": 8,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Gerudo Veil",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Gerudo Veil Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Gerudo Top",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Gerudo Top Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Gerudo Sirwal",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Gerudo Sirwal Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Hylian Hood",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Hylian Hood Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Bokoblin Fang",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Bokoblin Fang",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 15,
+        "forLevel": 4
+      },
+      {
+        "name": "Bokoblin Horn",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Bokoblin Horn",
+        "quantity": 8,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Hylian Tunic",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Hylian Tunic Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Bokoblin Fang",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Bokoblin Fang",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 15,
+        "forLevel": 4
+      },
+      {
+        "name": "Bokoblin Horn",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Bokoblin Horn",
+        "quantity": 8,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Hylian Trousers",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Hylian Trousers Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Bokoblin Fang",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Bokoblin Fang",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 15,
+        "forLevel": 4
+      },
+      {
+        "name": "Bokoblin Horn",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Bokoblin Horn",
+        "quantity": 8,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Radiant Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Radiant Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 8,
+        "forLevel": 2
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 20,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Molduga Guts",
+        "quantity": 3,
+        "forLevel": 3
+      }
+    ]
+  },
+  {
+    "name": "Radiant Shirt",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Radiant Shirt Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 8,
+        "forLevel": 2
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 20,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Molduga Guts",
+        "quantity": 3,
+        "forLevel": 3
+      }
+    ]
+  },
+  {
+    "name": "Radiant Tights",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Radiant Tights Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 8,
+        "forLevel": 2
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Luminous Stones",
+        "quantity": 20,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Molduga Guts",
+        "quantity": 3,
+        "forLevel": 3
+      }
+    ]
+  },
+  {
+    "name": "Rubber Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Rubber Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Voltfruit",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Yellow Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Yellow Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Yellow Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Yellow Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Zapshroom",
+        "quantity": 5,
+        "forLevel": 3
+      }
+    ]
+  },
+  {
+    "name": "Rubber Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Rubber Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Voltfruit",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Yellow Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Yellow Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Yellow Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Yellow Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Zapshroom",
+        "quantity": 5,
+        "forLevel": 3
+      }
+    ]
+  },
+  {
+    "name": "Rubber Tights",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Rubber Tights Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Voltfruit",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Yellow Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Yellow Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Yellow Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Yellow Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Zapshroom",
+        "quantity": 5,
+        "forLevel": 3
+      }
+    ]
+  },
+  {
+    "name": "Stealth Chest Guard",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Stealth Chest Guard Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Blue Nightshade",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Blue Nightshade",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Silent Shroom",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Sneaker River Snail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Stealthfin Fish",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Sunset Firefly",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Stealth Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Stealth Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Blue Nightshade",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Blue Nightshade",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Silent Shroom",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Sneaker River Snail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Stealthfin Fish",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Sunset Firefly",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Stealth Tights",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Stealth Tights Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Blue Nightshade",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Blue Nightshade",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Silent Shroom",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Sneaker River Snail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Stealthfin Fish",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Sunset Firefly",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Snowquill Headdress",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Snowquill Headdress Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Fire Keese Wing",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Red Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Red Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Red Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Ruby",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Sunshroom",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Warm Safflina",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Snowquill Tunic",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Snowquill Tunic Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Fire Keese Wing",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Red Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Red Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Red Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Ruby",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Sunshroom",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Warm Safflina",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Snowquill Trousers",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Snowquill Trousers Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Fire Keese Wing",
+        "quantity": 8,
+        "forLevel": 3
+      },
+      {
+        "name": "Red Chuchu Jelly",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Red Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Red Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Ruby",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Sunshroom",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Warm Safflina",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Soldier's Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Soldier's Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox Guts",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Keese Eyeball",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 4,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Soldier's Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Soldier's Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox Guts",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Keese Eyeball",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 4,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Soldier's Greaves",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Soldier's Greaves Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Bokoblin Guts",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Chuchu Jelly",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox Guts",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Keese Eyeball",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Lynel Hoof",
+        "quantity": 4,
+        "forLevel": 4
+      },
+      {
+        "name": "Moblin Guts",
+        "quantity": 3,
+        "forLevel": 2
+      }
+    ]
+  },
+  {
+    "name": "Old Shirt",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Old Shirt Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Well-Worn Trousers",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Well-Worn Trousers Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Zora Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Zora Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Hearty Bass",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Hyrule Bass",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Lizalfos Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Lizalfos Talon",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 15,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Zora Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Zora Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Hearty Bass",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Hyrule Bass",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Lizalfos Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Lizalfos Talon",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 15,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Zora Greaves",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Zora Greaves Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Hearty Bass",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Hyrule Bass",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Lizalfos Horn",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Lizalfos Tail",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Lizalfos Talon",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 15,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Cap of the Wild",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Cap of the Wild Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Acorn",
+        "quantity": 10,
+        "forLevel": 1
+      },
+      {
+        "name": "Courser Bee Honey",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Energetic Rhino Beetle",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Farosh's Claw",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Farosh's Fang",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Farosh's Horn",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Farosh's Scale",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tunic of the Wild",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tunic of the Wild Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Acorn",
+        "quantity": 10,
+        "forLevel": 1
+      },
+      {
+        "name": "Courser Bee Honey",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Energetic Rhino Beetle",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Naydra's Claw",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Naydra's Fang",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Naydra's Horn",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Naydra's Scale",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Trousers of the Wild",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Trousers of the Wild Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Acorn",
+        "quantity": 10,
+        "forLevel": 1
+      },
+      {
+        "name": "Courser Bee Honey",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Dinraal's Claw",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Dinraal's Fang",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Dinraal's Horn",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Dinraal's Scale",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Energetic Rhino Beetle",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Cap of the Hero",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Cap of the Hero Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ruby",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Ruby",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ruby",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ruby",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tunic of the Hero",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tunic of the Hero Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ruby",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Ruby",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ruby",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ruby",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Trousers of the Hero",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Trousers of the Hero Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ruby",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Ruby",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ruby",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ruby",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Cap of the Wind",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Cap of the Wind Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Opal",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Opal",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Opal",
+        "quantity": 20,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tunic of the Wind",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tunic of the Wind Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Opal",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Opal",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Opal",
+        "quantity": 20,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Trousers of the Wind",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Trousers of the Wind Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Opal",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Opal",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Opal",
+        "quantity": 20,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Cap of Time",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Cap of Time Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Amber",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Amber",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tunic of Time",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tunic of Time Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Amber",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Amber",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Trousers of Time",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Trousers of Time Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Amber",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Amber",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Cap of Twilight",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Cap of Twilight Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Topaz",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Topaz",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Topaz",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tunic of Twilight",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tunic of Twilight Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Topaz",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Topaz",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Topaz",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Trousers of Twilight",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Trousers of Twilight Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Topaz",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Topaz",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Topaz",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Sheik's Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Sheik's Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Silent Princess",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 4,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Vah Ruta Divine Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Vah Ruta Divine Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Vah Naboris Divine Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Vah Naboris Divine Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Vah Medoh Divine Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Vah Medoh Divine Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Vah Rudania Divine Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Vah Rudania Divine Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Ancient Core",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Gear",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Ancient Screw",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Shaft",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Ancient Spring",
+        "quantity": 15,
+        "forLevel": 2
+      },
+      {
+        "name": "Giant Ancient Core",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tingle's Hood",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tingle's Hood Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Tingle's Shirt",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tingle's Shirt Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Tingle's Tights",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tingle's Tights Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Phantom Helmet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Phantom Helmet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Phantom Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Phantom Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Phantom Greaves",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Phantom Greaves Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Korok Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Korok Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Midna's Helmet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Midna's Helmet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Majora's Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Majora's Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Salvager Headwear",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Salvager Headwear Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Salvager Vest",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Salvager Vest Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Salvager Trousers",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Salvager Trousers Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Champion's Tunic",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Champion's Tunic Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Shard of Dinraal's Horn",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Shard of Farosh's Horn",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Shard of Naydra's Horn",
+        "quantity": 2,
+        "forLevel": 3
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Silent Princess",
+        "quantity": 3,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Sand Boots",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Sand Boots Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Hightail Lizard",
+        "quantity": 10,
+        "forLevel": 1
+      },
+      {
+        "name": "Molduga Fin",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Molduga Fin",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Molduga Guts",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Molduga Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Rushroom",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Swift Carrot",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Swift Violet",
+        "quantity": 15,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Snow Boots",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Snow Boots Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Hightail Lizard",
+        "quantity": 10,
+        "forLevel": 1
+      },
+      {
+        "name": "Naydra's Scale",
+        "quantity": 2,
+        "forLevel": 4
+      },
+      {
+        "name": "Octo Balloon",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Octorok Eyeball",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Octorok Tentacle",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Rushroom",
+        "quantity": 15,
+        "forLevel": 3
+      },
+      {
+        "name": "Swift Carrot",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Swift Violet",
+        "quantity": 15,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Thunder Helm",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Thunder Helm Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Warm Doublet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Warm Doublet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Amber Earrings",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Amber Earrings Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Amber",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Amber",
+        "quantity": 10,
+        "forLevel": 2
+      },
+      {
+        "name": "Amber",
+        "quantity": 20,
+        "forLevel": 3
+      },
+      {
+        "name": "Amber",
+        "quantity": 30,
+        "forLevel": 4
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Diamond Circlet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Diamond Circlet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Diamond",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Diamond",
+        "quantity": 4,
+        "forLevel": 2
+      },
+      {
+        "name": "Diamond",
+        "quantity": 6,
+        "forLevel": 3
+      },
+      {
+        "name": "Diamond",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Opal Earrings",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Opal Earrings Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 4
+      },
+      {
+        "name": "Opal",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Opal",
+        "quantity": 8,
+        "forLevel": 2
+      },
+      {
+        "name": "Opal",
+        "quantity": 16,
+        "forLevel": 3
+      },
+      {
+        "name": "Opal",
+        "quantity": 20,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Ruby Circlet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Ruby Circlet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Ruby",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Ruby",
+        "quantity": 4,
+        "forLevel": 2
+      },
+      {
+        "name": "Ruby",
+        "quantity": 6,
+        "forLevel": 3
+      },
+      {
+        "name": "Ruby",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Sapphire Circlet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Sapphire Circlet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 4,
+        "forLevel": 2
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 6,
+        "forLevel": 3
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Topaz Earrings",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Topaz Earrings Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Flint",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 4
+      },
+      {
+        "name": "Topaz",
+        "quantity": 2,
+        "forLevel": 1
+      },
+      {
+        "name": "Topaz",
+        "quantity": 4,
+        "forLevel": 2
+      },
+      {
+        "name": "Topaz",
+        "quantity": 6,
+        "forLevel": 3
+      },
+      {
+        "name": "Topaz",
+        "quantity": 10,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Bokoblin Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Bokoblin Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Lizalfos Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Lizalfos Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Lynel Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Lynel Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Moblin Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Moblin Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Phantom Ganon Skull",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Phantom Ganon Skull Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Phantom Ganon Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Phantom Ganon Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Phantom Ganon Greaves",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Phantom Ganon Greaves Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Royal Guard Cap",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Royal Guard Cap Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Royal Guard Uniform",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Royal Guard Uniform Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Royal Guard Boots",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Royal Guard Boots Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Ravio's Hood",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Ravio's Hood Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Zant's Helmet",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Zant's Helmet Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Island Lobster Shirt",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Island Lobster Shirt Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Nintendo Switch Shirt",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Nintendo Switch Shirt Icon.png.png",
+    "obtained": false,
+    "isUpgradable": false,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": []
+  },
+  {
+    "name": "Climber's Bandanna",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Climber's Bandanna Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Electric Keese Wing",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Fire Keese Wing",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Hightail Lizard",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Hot-Footed Frog",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Keese Wing",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Rushroom",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Swift Violet",
+        "quantity": 20,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Climbing Gear",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Climbing Gear Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Electric Keese Wing",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Fire Keese Wing",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Hightail Lizard",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Hot-Footed Frog",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Keese Wing",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Rushroom",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Swift Violet",
+        "quantity": 20,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Climbing Boots",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Climbing Boots Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Electric Keese Wing",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Fire Keese Wing",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Hightail Lizard",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Hot-Footed Frog",
+        "quantity": 10,
+        "forLevel": 3
+      },
+      {
+        "name": "Ice Keese Wing",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Keese Wing",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Rushroom",
+        "quantity": 3,
+        "forLevel": 1
+      },
+      {
+        "name": "Swift Violet",
+        "quantity": 20,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Cap of the Sky",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Cap of the Sky Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Sapphire",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Tunic of the Sky",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Tunic of the Sky Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Sapphire",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Trousers of the Sky",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Trousers of the Sky Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Sapphire",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 3,
+        "forLevel": 2
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Sapphire",
+        "quantity": 10,
+        "forLevel": 4
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 2,
+        "forLevel": 2
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 3,
+        "forLevel": 3
+      },
+      {
+        "name": "Star Fragment",
+        "quantity": 4,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Fierce Deity Mask",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Fierce Deity Mask Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Dinraal's Claw",
+        "quantity": 1,
+        "forLevel": 2
+      },
+      {
+        "name": "Dinraal's Scale",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox guts",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Hinox Toenail",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox Tooth",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Shard of Dinraal's Fang",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Shard of Dinraal's Horn",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Fierce Deity Armor",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Fierce Deity Armor Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Dinraal's Claw",
+        "quantity": 1,
+        "forLevel": 2
+      },
+      {
+        "name": "Dinraal's Scale",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox guts",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Hinox Toenail",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox Tooth",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Shard of Dinraal's Fang",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Shard of Naydra's Horn",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  },
+  {
+    "name": "Fierce Deity Boots",
+    "setName": "Snowquill Set",
+    "imagePath": "/images/BotW Fierce Deity Boots Icon.png.png",
+    "obtained": false,
+    "isUpgradable": true,
+    "currentLevel": 0,
+    "listOfUpgradeMaterials": [
+      {
+        "name": "Dinraal's Claw",
+        "quantity": 1,
+        "forLevel": 2
+      },
+      {
+        "name": "Dinraal's Scale",
+        "quantity": 1,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox guts",
+        "quantity": 5,
+        "forLevel": 3
+      },
+      {
+        "name": "Hinox Toenail",
+        "quantity": 5,
+        "forLevel": 1
+      },
+      {
+        "name": "Hinox Tooth",
+        "quantity": 5,
+        "forLevel": 2
+      },
+      {
+        "name": "Lynel Guts",
+        "quantity": 5,
+        "forLevel": 4
+      },
+      {
+        "name": "Shard of Dinraal's Fang",
+        "quantity": 1,
+        "forLevel": 3
+      },
+      {
+        "name": "Shard of Farosh's Horn",
+        "quantity": 1,
+        "forLevel": 4
+      }
+    ]
+  }
+]

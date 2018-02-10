@@ -1,0 +1,17 @@
+<ng-container *ngIf="!disable">
+    <div *ngFor="let star of starList" class="rating">
+        <span [class]="star.tempSelected?'fa fa-star':'fa fa-star-o'" aria-hidden="true"
+              style="float:left;" (mouseover)="mouseover(star.id)"
+              (mouseout)="mouseout(star.id)"
+              (click)="click(star.id)"></span>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="disable">
+    <div *ngFor="let star of starList"  class="rating" data-toggle="tooltip" data-placement="bottom" title="To change the level, mark it as obtained.">
+        <span class="fa fa-star-o" aria-hidden="true"
+              style="float:left; color:#CCCCCC"></span>
+    </div>
+</ng-container>
+
+

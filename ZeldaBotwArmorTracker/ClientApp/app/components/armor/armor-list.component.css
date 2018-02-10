@@ -1,0 +1,52 @@
+.armor-list .card {
+    margin: 0 20px 20px 0;
+    min-height: 280px;
+    width: 17rem;
+    float: left;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    /*background-color:#b3f4b3;*/
+    /*#f0f4b3*/
+}
+.armor-list .card-header {
+    font-size: 14px;
+}
+
+.armor-list .card img {
+    max-height: 95px;
+    margin-left: 40px;
+}
+
+.armor-list .card ul {
+    columns: 2;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+.armor-list .card-footer {
+    padding: 10px;
+    min-height: 112px;
+}
+
+.armor-list .card-body {
+    padding-bottom: 5px;
+    min-height: 150px;
+}
+
+.armor-list .obtained {
+    background-color: #b3f4b3;
+}
+
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    padding: 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+    overflow:auto;
+    margin-top:40px;
+}
