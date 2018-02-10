@@ -5,6 +5,7 @@
     "imagePath": "/images/BotW Ancient Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -55,6 +56,7 @@
     "imagePath": "/images/BotW Ancient Cuirass Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -105,6 +107,7 @@
     "imagePath": "/images/BotW Ancient Greaves Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -155,6 +158,7 @@
     "imagePath": "/images/BotW Barbarian Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -200,6 +204,7 @@
     "imagePath": "/images/BotW Barbarian Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -245,6 +250,7 @@
     "imagePath": "/images/BotW Barbarian Leg Wraps Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -290,6 +296,7 @@
     "imagePath": "/images/BotW Dark Hood Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -299,6 +306,7 @@
     "imagePath": "/images/BotW Dark Tunic Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -308,6 +316,7 @@
     "imagePath": "/images/BotW Dark Trousers Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -317,6 +326,7 @@
     "imagePath": "/images/BotW Desert Voe Headband Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -362,6 +372,7 @@
     "imagePath": "/images/BotW Desert Voe Spaulder Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -407,6 +418,7 @@
     "imagePath": "/images/BotW Desert Voe Trousers Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -452,6 +464,7 @@
     "imagePath": "/images/BotW Flamebreaker Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -502,6 +515,7 @@
     "imagePath": "/images/BotW Flamebreaker Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -552,6 +566,7 @@
     "imagePath": "/images/BotW Flamebreaker Boots Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -602,6 +617,7 @@
     "imagePath": "/images/BotW Gerudo Veil Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -611,6 +627,7 @@
     "imagePath": "/images/BotW Gerudo Top Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -620,6 +637,7 @@
     "imagePath": "/images/BotW Gerudo Sirwal Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -629,6 +647,7 @@
     "imagePath": "/images/BotW Hylian Hood Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -674,6 +693,7 @@
     "imagePath": "/images/BotW Hylian Tunic Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -719,6 +739,7 @@
     "imagePath": "/images/BotW Hylian Trousers Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -764,6 +785,7 @@
     "imagePath": "/images/BotW Radiant Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -814,6 +836,7 @@
     "imagePath": "/images/BotW Radiant Shirt Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -864,6 +887,7 @@
     "imagePath": "/images/BotW Radiant Tights Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -914,6 +938,7 @@
     "imagePath": "/images/BotW Rubber Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -959,6 +984,7 @@
     "imagePath": "/images/BotW Rubber Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1004,6 +1030,7 @@
     "imagePath": "/images/BotW Rubber Tights Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1049,6 +1076,7 @@
     "imagePath": "/images/BotW Stealth Chest Guard Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1094,6 +1122,7 @@
     "imagePath": "/images/BotW Stealth Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1139,6 +1168,7 @@
     "imagePath": "/images/BotW Stealth Tights Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1184,6 +1214,7 @@
     "imagePath": "/images/BotW Snowquill Headdress Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1229,6 +1260,7 @@
     "imagePath": "/images/BotW Snowquill Tunic Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1274,6 +1306,7 @@
     "imagePath": "/images/BotW Snowquill Trousers Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1319,6 +1352,7 @@
     "imagePath": "/images/BotW Soldier's Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1369,6 +1403,7 @@
     "imagePath": "/images/BotW Soldier's Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1419,6 +1454,7 @@
     "imagePath": "/images/BotW Soldier's Greaves Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1469,6 +1505,7 @@
     "imagePath": "/images/BotW Old Shirt Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -1478,6 +1515,7 @@
     "imagePath": "/images/BotW Well-Worn Trousers Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -1487,6 +1525,7 @@
     "imagePath": "/images/BotW Zora Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1532,6 +1571,7 @@
     "imagePath": "/images/BotW Zora Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1577,6 +1617,7 @@
     "imagePath": "/images/BotW Zora Greaves Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1622,6 +1663,7 @@
     "imagePath": "/images/BotW Cap of the Wild Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1645,12 +1687,12 @@
         "forLevel": 2
       },
       {
-        "name": "Farosh's Fang",
+        "name": "Shard of Farosh's Fang",
         "quantity": 2,
         "forLevel": 3
       },
       {
-        "name": "Farosh's Horn",
+        "name": "Shard of Farosh's Horn",
         "quantity": 2,
         "forLevel": 4
       },
@@ -1672,6 +1714,7 @@
     "imagePath": "/images/BotW Tunic of the Wild Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1722,6 +1765,7 @@
     "imagePath": "/images/BotW Trousers of the Wild Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1772,6 +1816,7 @@
     "imagePath": "/images/BotW Cap of the Hero Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1822,6 +1867,7 @@
     "imagePath": "/images/BotW Tunic of the Hero Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1872,6 +1918,7 @@
     "imagePath": "/images/BotW Trousers of the Hero Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1922,6 +1969,7 @@
     "imagePath": "/images/BotW Cap of the Wind Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1972,6 +2020,7 @@
     "imagePath": "/images/BotW Tunic of the Wind Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2022,6 +2071,7 @@
     "imagePath": "/images/BotW Trousers of the Wind Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2072,6 +2122,7 @@
     "imagePath": "/images/BotW Cap of Time Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2122,6 +2173,7 @@
     "imagePath": "/images/BotW Tunic of Time Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2172,6 +2224,7 @@
     "imagePath": "/images/BotW Trousers of Time Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2222,6 +2275,7 @@
     "imagePath": "/images/BotW Cap of Twilight Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2272,6 +2326,7 @@
     "imagePath": "/images/BotW Tunic of Twilight Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2322,6 +2377,7 @@
     "imagePath": "/images/BotW Trousers of Twilight Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2372,6 +2428,7 @@
     "imagePath": "/images/BotW Sheik's Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2422,6 +2479,7 @@
     "imagePath": "/images/BotW Vah Ruta Divine Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2472,6 +2530,7 @@
     "imagePath": "/images/BotW Vah Naboris Divine Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2522,6 +2581,7 @@
     "imagePath": "/images/BotW Vah Medoh Divine Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2572,6 +2632,7 @@
     "imagePath": "/images/BotW Vah Rudania Divine Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2622,6 +2683,7 @@
     "imagePath": "/images/BotW Tingle's Hood Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2631,6 +2693,7 @@
     "imagePath": "/images/BotW Tingle's Shirt Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2640,6 +2703,7 @@
     "imagePath": "/images/BotW Tingle's Tights Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2649,6 +2713,7 @@
     "imagePath": "/images/BotW Phantom Helmet Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2658,6 +2723,7 @@
     "imagePath": "/images/BotW Phantom Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2667,6 +2733,7 @@
     "imagePath": "/images/BotW Phantom Greaves Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2676,6 +2743,7 @@
     "imagePath": "/images/BotW Korok Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2685,6 +2753,7 @@
     "imagePath": "/images/BotW Midna's Helmet Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2694,6 +2763,7 @@
     "imagePath": "/images/BotW Majora's Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2703,6 +2773,7 @@
     "imagePath": "/images/BotW Salvager Headwear Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2712,6 +2783,7 @@
     "imagePath": "/images/BotW Salvager Vest Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2721,6 +2793,7 @@
     "imagePath": "/images/BotW Salvager Trousers Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2730,6 +2803,7 @@
     "imagePath": "/images/BotW Champion's Tunic Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2775,6 +2849,7 @@
     "imagePath": "/images/BotW Sand Boots Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2825,6 +2900,7 @@
     "imagePath": "/images/BotW Snow Boots Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2875,6 +2951,7 @@
     "imagePath": "/images/BotW Thunder Helm Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2884,6 +2961,7 @@
     "imagePath": "/images/BotW Warm Doublet Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2893,6 +2971,7 @@
     "imagePath": "/images/BotW Amber Earrings Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2943,6 +3022,7 @@
     "imagePath": "/images/BotW Diamond Circlet Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2993,6 +3073,7 @@
     "imagePath": "/images/BotW Opal Earrings Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3043,6 +3124,7 @@
     "imagePath": "/images/BotW Ruby Circlet Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3093,6 +3175,7 @@
     "imagePath": "/images/BotW Sapphire Circlet Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3143,6 +3226,7 @@
     "imagePath": "/images/BotW Topaz Earrings Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3193,6 +3277,7 @@
     "imagePath": "/images/BotW Bokoblin Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3202,6 +3287,7 @@
     "imagePath": "/images/BotW Lizalfos Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3211,6 +3297,7 @@
     "imagePath": "/images/BotW Lynel Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3220,6 +3307,7 @@
     "imagePath": "/images/BotW Moblin Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3229,6 +3317,7 @@
     "imagePath": "/images/BotW Phantom Ganon Skull Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3238,6 +3327,7 @@
     "imagePath": "/images/BotW Phantom Ganon Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3247,6 +3337,7 @@
     "imagePath": "/images/BotW Phantom Ganon Greaves Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3256,6 +3347,7 @@
     "imagePath": "/images/BotW Royal Guard Cap Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3265,6 +3357,7 @@
     "imagePath": "/images/BotW Royal Guard Uniform Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3274,6 +3367,7 @@
     "imagePath": "/images/BotW Royal Guard Boots Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3283,6 +3377,7 @@
     "imagePath": "/images/BotW Ravio's Hood Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3292,6 +3387,7 @@
     "imagePath": "/images/BotW Zant's Helmet Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3301,6 +3397,7 @@
     "imagePath": "/images/BotW Island Lobster Shirt Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3310,6 +3407,7 @@
     "imagePath": "/images/BotW Nintendo Switch Shirt Icon.png.png",
     "obtained": false,
     "isUpgradable": false,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3319,6 +3417,7 @@
     "imagePath": "/images/BotW Climber's Bandanna Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3369,6 +3468,7 @@
     "imagePath": "/images/BotW Climbing Gear Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3419,6 +3519,7 @@
     "imagePath": "/images/BotW Climbing Boots Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3469,6 +3570,7 @@
     "imagePath": "/images/BotW Cap of the Sky Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3519,6 +3621,7 @@
     "imagePath": "/images/BotW Tunic of the Sky Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3569,6 +3672,7 @@
     "imagePath": "/images/BotW Trousers of the Sky Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3619,6 +3723,7 @@
     "imagePath": "/images/BotW Fierce Deity Mask Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3669,6 +3774,7 @@
     "imagePath": "/images/BotW Fierce Deity Armor Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3719,6 +3825,7 @@
     "imagePath": "/images/BotW Fierce Deity Boots Icon.png.png",
     "obtained": false,
     "isUpgradable": true,
+    "amiiboRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {

@@ -25,13 +25,17 @@
     <div class="armor-list">
         <div class="card" *ngFor="let armor of filteredArmorList">
             <div [class]="armor.obtained? 'card-header obtained': 'card-header'">
-                <input type="checkbox" [(ngModel)]="armor.obtained" (ngModelChange)="changeObtained(armor)" /> Already Obtained?
+                <input type="checkbox" class="testea" [(ngModel)]="armor.obtained" (ngModelChange)="changeObtained(armor)" /> Already Obtained?
+            <img *ngIf="armor.amiiboRelated" title="This armor is obtained using an Amiibo" class="amiibo-img" src="/images/amiibo.png" />
             </div>
             <div class="card-body">
-                <h5 class="card-title" style="margin:0;">{{armor.name}}</h5>
+             
+                <h5 class="card-title" style="margin:0;">
+                    <a target="_blank" href="{{armor.externalLink}}">{{armor.name}}</a>
+                </h5>
                 <armor-star [(ngModel)]="armor.currentLevel" (ngModelChange)="changeLevel(armor)"
                             *ngIf="armor.isUpgradable" [disable]="!armor.obtained"></armor-star>
-                <img class="" src="{{armor.imagePath}}" alt="{{armor.name}}">
+                <img class="armor-img" src="{{armor.imagePath}}" alt="{{armor.name}}">
             </div>
             <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length == 0 && armor.isUpgradable">
                 Upgrade completed!
@@ -42,7 +46,7 @@
             <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length > 0">
                 <ul *ngIf=" armor.groupedMaterials.length > 0">
                     <li *ngFor="let material of armor.groupedMaterials">
-                        {{material.name}} x{{material.quantity}}
+                        <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
                     </li>
                 </ul>
             </div>

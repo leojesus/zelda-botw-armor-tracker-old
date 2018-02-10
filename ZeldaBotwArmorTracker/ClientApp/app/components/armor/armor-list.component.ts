@@ -4,6 +4,7 @@ import { Http } from '@angular/http';
 import { AnalyticsService } from '../analytics/analytics.service';
 import { ArmorMaterialService } from './armor-material.service';
 import { ArmorFilterService } from './armor-filter/armor-filter.service';
+import { Armor } from './Armor';
 
 
 @Component({
@@ -49,7 +50,8 @@ export class ArmorListComponent implements OnInit {
         this._armorFilterService.currentMessage.subscribe(message => {
             this.filteredArmorList = _.filter(this.armorList, function (item) {
                 return item.name.toUpperCase().indexOf(message.name.toUpperCase()) > -1
-                    && (!message.onlyObtained || item.obtained === message.onlyObtained)
+                    && (!message.onlyObtained || item.obtained)
+                    && (!message.hideAmiibo || !item.amiiboRelated)
                     && (!message.onlyNotFullyUpgraded || (item.currentLevel < 4 && item.isUpgradable));
             });
         });
@@ -64,6 +66,8 @@ export class ArmorListComponent implements OnInit {
             let property: string = key;
             if ((property !== 'imagePath') && (property !== 'setName')
                 && (property !== 'isUpgradable') && (property !== 'listOfUpgradeMaterials')
+                && (property !== 'amiiboRelated')
+                && (property !== 'listOfUpgradeMaterials')
                 && (property !== 'groupedMaterials'))
                 return val;
         });
@@ -104,47 +108,4 @@ export class UserArmor {
         }) {
         if (fields) Object.assign(this, fields);
     }
-}
-
-
-export class Armor {
-    name: string;
-    setName: string;
-    imagePath: string;
-    obtained: boolean = false;
-    isUpgradable: boolean;
-    private _currentLevel: number = 0;
-    listOfUpgradeMaterials: Material[];
-    groupedMaterials: Material[];
-
-    get currentLevel(): number {
-        return this._currentLevel;
-    }
-    set currentLevel(value: number) {
-        this._currentLevel = value;
-        this.updateGroupedMaterials();
-    }
-
-    public updateGroupedMaterials() {
-        let currentLevel = this.currentLevel;
-        var output =
-            _(this.listOfUpgradeMaterials)
-                .filter(function (o) { return o.forLevel > currentLevel })
-                .groupBy('name')
-                .map((objs, key) => ({
-                    'name': key,
-                    'quantity': _.sumBy(objs, 'quantity')
-                }))
-                .value();
-        this.groupedMaterials = <Material[]>output;
-    }
-
-    constructor() {
-    }
-}
-
-export class Material {
-    name: string;
-    quantity: number;
-    forLevel: number;
 }

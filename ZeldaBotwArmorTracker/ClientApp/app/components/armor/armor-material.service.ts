@@ -1,8 +1,9 @@
 import { Injectable } from "@angular/core";
-import { Material, Armor } from "./armor-list.component";
 import * as _ from "lodash";
 import { Observable } from "rxjs/Observable";
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
+import { Armor } from "./Armor";
+import { Material } from "./Material";
 
 @Injectable()
 export class ArmorMaterialService {
@@ -14,7 +15,6 @@ export class ArmorMaterialService {
     constructor() { }
 
     changeMessage(armors: Armor[]) {
-       
 
         if (armors !== undefined && armors !== null) {
 
@@ -32,7 +32,9 @@ export class ArmorMaterialService {
                     'quantity': _.sumBy(objs, 'quantity')
                 })).orderBy('name')
                 .value();
-            this.messageSource.next(<Material[]>a);
+            this.messageSource.next(_.map(a).map(function (x) {
+                return Object.assign(new Material, x);
+            }));
         }
 
 

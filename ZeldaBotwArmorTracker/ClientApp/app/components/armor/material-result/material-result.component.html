@@ -20,13 +20,13 @@
         <ul class="nav flex-column" *ngFor="let material of allMaterials">
             <li class="nav-item">
                 <span class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-1 mb-1 text-muted">
-                    {{material.name}} x{{material.quantity}}
+                    <a class="teste" target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
                 </span>
             </li>
         </ul>
     </ng-container>
 
     <ng-container *ngIf="allMaterials.length == 0">
-       <p class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted">You have fully upgraded all the armors marked as obtained.</p>
+        <p class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-3 mb-1 text-muted">You have fully upgraded all the armors marked as obtained.</p>
     </ng-container>
 </div>

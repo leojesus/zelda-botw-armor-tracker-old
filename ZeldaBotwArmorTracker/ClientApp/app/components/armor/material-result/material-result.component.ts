@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
-import { Armor, Material } from "../armor-list.component";
 import * as _ from "lodash";
 import { ArmorMaterialService } from "../armor-material.service";
+import { Material } from "../Material";
 
 
 @Component({

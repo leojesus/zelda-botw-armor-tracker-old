@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { Armor, Material } from "../armor-list.component";
 import * as _ from "lodash";
 import { ArmorFilterService } from "./armor-filter.service";
 import { ArmorFilter } from "./ArmorFilter";
@@ -23,7 +22,10 @@ export class ArmorFilterComponent {
     }
 
     changeFiter() {
-        this.data.changeFilter(this.filter.name, this.filter.onlyObtained, this.filter.onlyNotFullyUpgraded);
+        this.data.changeFilter(this.filter.name,
+            this.filter.onlyObtained,
+            this.filter.onlyNotFullyUpgraded,
+            this.filter.hideAmiibo);
     }
 }
 

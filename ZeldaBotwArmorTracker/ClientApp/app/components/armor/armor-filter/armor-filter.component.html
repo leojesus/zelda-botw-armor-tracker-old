@@ -11,11 +11,17 @@
                                aria-describedby="emailHelp" placeholder="Armor name"
                                [(ngModel)]="filter.name" (ngModelChange)="changeFiter()">
                     </div>
-                    <div class="form-check col-sm-3">
+                    <div class="form-check col-sm-3" style="margin-top:-10px;">
                         <input type="checkbox" class="form-check-input" id="cbObtained"
                                [(ngModel)]="filter.onlyObtained" (ngModelChange)="changeFiter()">
                         <label class="form-check-label" for="cbObtained">
                             Show only obtained armors
+                        </label>
+                        <br />
+                        <input type="checkbox" class="form-check-input" id="cdAmiibo"
+                               [(ngModel)]="filter.hideAmiibo" (ngModelChange)="changeFiter()">
+                        <label class="form-check-label" for="cdAmiibo">
+                            Hide Amiibo related
                         </label>
                     </div>
                     <div class="form-check col-sm-4">

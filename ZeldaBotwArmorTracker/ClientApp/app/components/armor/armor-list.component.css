@@ -11,7 +11,13 @@
     font-size: 14px;
 }
 
-.armor-list .card img {
+.armor-list .card img.amiibo-img {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.armor-list .card img.armor-img {
     max-height: 95px;
     margin-left: 40px;
 }
@@ -26,7 +32,7 @@
 
 .armor-list .card-footer {
     padding: 10px;
-    min-height: 112px;
+    min-height: 130px;
 }
 
 .armor-list .card-body {
