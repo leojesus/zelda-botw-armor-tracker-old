@@ -12,12 +12,16 @@ export class ArmorFilterService {
 
     constructor() { }
 
-    changeFilter(name: string, onlyObtained: boolean, onlyNotFullyUpgraded: boolean, hideAmiibo: boolean) {
+    changeFilter(name: string, onlyObtained: boolean, onlyNotFullyUpgraded: boolean,
+        hideAmiibo: boolean, hideDlc: boolean,
+        onlyNotObtained: boolean) {
         let filter = new ArmorFilter();
         filter.name = name;
         filter.onlyNotFullyUpgraded = onlyNotFullyUpgraded;
         filter.onlyObtained = onlyObtained;
         filter.hideAmiibo = hideAmiibo;
+        filter.hideDlc = hideDlc;
+        filter.onlyNotObtained = onlyNotObtained;
         this.messageSource.next(filter);
     }
 }

@@ -12,6 +12,14 @@ export class AnalyticsService {
         this.sendDataToGa("armor-unobtained", armorName);
     }
 
+    materialToDisplayByLevel(armorName: string): void {
+        this.sendDataToGa("material-by-level", armorName);
+    }
+
+    materialToDisplayTotal(armorName: string): void {
+        this.sendDataToGa("material-total", armorName);
+    }
+
     armorChangeLevel(armorName: string, level: number): void {
         this.sendDataToGaWithValue("armor-change-level", armorName, level);
     }

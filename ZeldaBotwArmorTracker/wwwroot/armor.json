@@ -6,6 +6,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -57,6 +58,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -108,6 +110,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -159,6 +162,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -205,6 +209,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -238,7 +243,7 @@
         "forLevel": 2
       },
       {
-        "name": "Shard of Dinraal s Horn",
+        "name": "Shard of Farosh's Horn",
         "quantity": 1,
         "forLevel": 4
       }
@@ -251,6 +256,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -284,7 +290,7 @@
         "forLevel": 2
       },
       {
-        "name": "Shard of Dinraal's Horn",
+        "name": "Shard of Naydra's Horn",
         "quantity": 1,
         "forLevel": 4
       }
@@ -297,6 +303,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -307,6 +314,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -317,6 +325,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -327,6 +336,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -373,6 +383,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -419,6 +430,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -465,6 +477,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -516,6 +529,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -567,6 +581,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -618,6 +633,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -628,6 +644,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -638,6 +655,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -648,6 +666,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -694,6 +713,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -740,6 +760,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -786,6 +807,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -837,6 +859,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -888,6 +911,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -939,6 +963,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -985,6 +1010,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1031,6 +1057,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1077,6 +1104,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1123,6 +1151,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1169,6 +1198,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1215,6 +1245,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1261,6 +1292,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1307,6 +1339,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1353,6 +1386,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1404,6 +1438,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1455,6 +1490,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1506,6 +1542,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -1516,6 +1553,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -1526,6 +1564,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1572,6 +1611,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1618,6 +1658,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1664,6 +1705,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1715,6 +1757,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1766,6 +1809,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1817,6 +1861,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1868,6 +1913,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1919,6 +1965,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -1970,6 +2017,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2021,6 +2069,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2072,6 +2121,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2123,6 +2173,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2174,6 +2225,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2225,6 +2277,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2276,6 +2329,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2327,6 +2381,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2378,6 +2433,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2429,6 +2485,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2480,6 +2537,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2531,6 +2589,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2582,6 +2641,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2633,6 +2693,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2684,6 +2745,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2694,6 +2756,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2704,6 +2767,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2714,6 +2778,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2724,6 +2789,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2734,6 +2800,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2744,6 +2811,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2754,6 +2822,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2764,6 +2833,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2774,6 +2844,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2784,6 +2855,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2794,6 +2866,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2804,6 +2877,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2850,6 +2924,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2901,6 +2976,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -2952,6 +3028,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2962,6 +3039,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -2972,6 +3050,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3023,6 +3102,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3074,6 +3154,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3125,6 +3206,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3176,6 +3258,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3227,6 +3310,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3278,6 +3362,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3288,6 +3373,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3298,6 +3384,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3308,6 +3395,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3318,6 +3406,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3328,6 +3417,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3338,6 +3428,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3348,6 +3439,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3358,6 +3450,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3368,6 +3461,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3378,6 +3472,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3388,6 +3483,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3398,6 +3494,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3408,6 +3505,7 @@
     "obtained": false,
     "isUpgradable": false,
     "amiiboRelated": false,
+    "dlcRelated": true,
     "currentLevel": 0,
     "listOfUpgradeMaterials": []
   },
@@ -3418,6 +3516,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3457,7 +3556,7 @@
       },
       {
         "name": "Swift Violet",
-        "quantity": 20,
+        "quantity": 15,
         "forLevel": 4
       }
     ]
@@ -3469,6 +3568,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3508,7 +3608,7 @@
       },
       {
         "name": "Swift Violet",
-        "quantity": 20,
+        "quantity": 15,
         "forLevel": 4
       }
     ]
@@ -3520,6 +3620,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": false,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3559,7 +3660,7 @@
       },
       {
         "name": "Swift Violet",
-        "quantity": 20,
+        "quantity": 15,
         "forLevel": 4
       }
     ]
@@ -3571,6 +3672,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3622,6 +3724,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3673,6 +3776,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3724,6 +3828,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3737,7 +3842,7 @@
         "forLevel": 1
       },
       {
-        "name": "Hinox guts",
+        "name": "Hinox Guts",
         "quantity": 5,
         "forLevel": 3
       },
@@ -3775,6 +3880,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3788,7 +3894,7 @@
         "forLevel": 1
       },
       {
-        "name": "Hinox guts",
+        "name": "Hinox Guts",
         "quantity": 5,
         "forLevel": 3
       },
@@ -3826,6 +3932,7 @@
     "obtained": false,
     "isUpgradable": true,
     "amiiboRelated": true,
+    "dlcRelated": false,
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
@@ -3839,7 +3946,7 @@
         "forLevel": 1
       },
       {
-        "name": "Hinox guts",
+        "name": "Hinox Guts",
         "quantity": 5,
         "forLevel": 3
       },

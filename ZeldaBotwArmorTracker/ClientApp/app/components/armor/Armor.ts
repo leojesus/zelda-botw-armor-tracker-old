@@ -11,9 +11,19 @@ export class Armor {
     private _currentLevel: number = 0;
     listOfUpgradeMaterials: Material[];
     groupedMaterials: Material[];
+    showTotalMaterials: boolean = false;
+    dlcRelated: boolean;
 
     get externalLink(): string {
         return "https://www.zeldadungeon.net/wiki/" + this.name.replace(" ", "_");
+    }
+
+    get remainingLevelArray(): number[] {
+        let remaining: number[] = [];
+        for (let i: number = 4; i > this.currentLevel; i--) {
+            remaining.unshift(i);
+        }
+        return remaining;
     }
 
     get currentLevel(): number {
@@ -38,6 +48,17 @@ export class Armor {
         this.groupedMaterials = _.map(output).map(function (x) {
             return Object.assign(new Material, x);
         });
+    }
+
+    public materialsByLevel(level: number) {
+        var output =
+            _(this.listOfUpgradeMaterials)
+                .filter(function (o) { return o.forLevel == level })
+                .value();
+        //this.groupedMaterials = _.map(output).map(function (x) {
+        //    return Object.assign(new Material, x);
+        //});
+        return output;
     }
 
     constructor() {

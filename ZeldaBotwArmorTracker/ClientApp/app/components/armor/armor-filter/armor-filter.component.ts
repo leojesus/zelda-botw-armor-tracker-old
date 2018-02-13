@@ -25,7 +25,9 @@ export class ArmorFilterComponent {
         this.data.changeFilter(this.filter.name,
             this.filter.onlyObtained,
             this.filter.onlyNotFullyUpgraded,
-            this.filter.hideAmiibo);
+            this.filter.hideAmiibo,
+            this.filter.hideDlc,
+            this.filter.onlyNotObtained);
     }
 }
 

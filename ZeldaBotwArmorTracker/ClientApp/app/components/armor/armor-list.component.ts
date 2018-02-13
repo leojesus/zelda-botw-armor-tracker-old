@@ -27,7 +27,7 @@ export class ArmorListComponent implements OnInit {
         let userArmorJson: string = <string>localStorage.getItem("armors");
         let userArmorList: UserArmor[] = JSON.parse(userArmorJson);
 
-        let apiUrl = './armor.json?vaswr=asssssaaas';
+        let apiUrl = './armor.json?vaswr=sas';
         this._http.get(this.baseUrl + apiUrl).subscribe(result => {
             this.armorList = result.json() as Armor[];
 
@@ -52,6 +52,8 @@ export class ArmorListComponent implements OnInit {
                 return item.name.toUpperCase().indexOf(message.name.toUpperCase()) > -1
                     && (!message.onlyObtained || item.obtained)
                     && (!message.hideAmiibo || !item.amiiboRelated)
+                    && (!message.hideDlc || !item.dlcRelated)
+                    && (!message.onlyNotObtained || !item.obtained)
                     && (!message.onlyNotFullyUpgraded || (item.currentLevel < 4 && item.isUpgradable));
             });
         });
@@ -67,6 +69,7 @@ export class ArmorListComponent implements OnInit {
             if ((property !== 'imagePath') && (property !== 'setName')
                 && (property !== 'isUpgradable') && (property !== 'listOfUpgradeMaterials')
                 && (property !== 'amiiboRelated')
+                && (property !== 'dlcRelated')
                 && (property !== 'listOfUpgradeMaterials')
                 && (property !== 'groupedMaterials'))
                 return val;
@@ -92,6 +95,23 @@ export class ArmorListComponent implements OnInit {
             .filter(function (o) { return o.isUpgradable && o.obtained }).value();
         this.data.changeMessage(filteredArmor);
         this.saveInfo();
+    }
+
+    changeMaterialDisplay(armor: Armor) {
+        if (armor.showTotalMaterials) {
+            this._analyticsService.materialToDisplayTotal(armor.name);
+        } else {
+            this._analyticsService.materialToDisplayByLevel(armor.name);
+        }
+        this.saveInfo();
+    }
+
+    showMaterialsByLevel(armor: Armor) {
+        armor.showTotalMaterials = false;
+    }
+
+    showAllMaterials(armor: Armor) {
+        armor.showTotalMaterials = true;
     }
 }
 

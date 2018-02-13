@@ -2,34 +2,102 @@
     <div class="col-md-12 col-lg-10 col-sm-12">
         <div class="card">
             <div class="card-header">
-                <div class="form-group row" style="padding-left:10px;">
+                <div class="row" style="padding-left:10px;">
                     <label for="exampleInputEmail1" class="col-form-label">
                         Filter by
                     </label>
                     <div class="col-sm-4 col-lg-4 col-8">
+
                         <input type="email" class="form-control form-control-sm" id="exampleInputEmail1"
                                aria-describedby="emailHelp" placeholder="Armor name"
                                [(ngModel)]="filter.name" (ngModelChange)="changeFiter()">
                     </div>
-                    <div class="form-check col-sm-3" style="margin-top:-10px;">
-                        <input type="checkbox" class="form-check-input" id="cbObtained"
-                               [(ngModel)]="filter.onlyObtained" (ngModelChange)="changeFiter()">
-                        <label class="form-check-label" for="cbObtained">
+                </div>
+                <div class="row" style="padding-left:10px;">
+                    <div class="form-check col-sm-3" style="padding: 5px 0px;">
+
+
+                        <div class="custom-switch">
+
+                            <input type="checkbox" class="custom-switch-input" id="cbObtained"
+                                   [(ngModel)]="filter.onlyObtained" (ngModelChange)="changeFiter()" />
+                            <label class="custom-switch-btn" for="cbObtained">
+
+                            </label>
+                        </div>
+                        <label for="cbObtained">
                             Show only obtained armors
                         </label>
-                        <br />
-                        <input type="checkbox" class="form-check-input" id="cdAmiibo"
-                               [(ngModel)]="filter.hideAmiibo" (ngModelChange)="changeFiter()">
-                        <label class="form-check-label" for="cdAmiibo">
+                    </div>
+                    <div class="form-check col-sm-3" style="padding: 5px 0px 0px 5px;">
+
+
+                        <div class="custom-switch">
+
+                            <input type="checkbox" class="custom-switch-input" id="cdAmiibo"
+                                   [(ngModel)]="filter.hideAmiibo" (ngModelChange)="changeFiter()" />
+                            <label class="custom-switch-btn" for="cdAmiibo">
+
+                            </label>
+                        </div>
+                        <label for="cdAmiibo">
                             Hide Amiibo related
                         </label>
+
+
                     </div>
-                    <div class="form-check col-sm-4">
-                        <input type="checkbox" class="form-check-input" id="cbUpgraded"
-                               [(ngModel)]="filter.onlyNotFullyUpgraded" (ngModelChange)="changeFiter()">
-                        <label class="form-check-label" for="cbUpgraded">
+
+
+                    <div class="form-check col-sm-4" style="padding: 5px 0px;">
+
+                        <div class="custom-switch">
+
+                            <input type="checkbox" class="custom-switch-input" id="cbUpgraded"
+                                   [(ngModel)]="filter.onlyNotFullyUpgraded" (ngModelChange)="changeFiter()" />
+                            <label class="custom-switch-btn" for="cbUpgraded">
+
+                            </label>
+                        </div>
+                        <label for="cbUpgraded">
                             Show only armors to be upgraded
                         </label>
+                    </div>
+                </div>
+                <div class="row" style="padding-left:10px;">
+
+                    <div class="form-check col-sm-3" style="padding: 5px 0px;">
+
+                        <div class="custom-switch">
+
+                            <input type="checkbox" class="custom-switch-input" id="cbDlc"
+                                   [(ngModel)]="filter.hideDlc" (ngModelChange)="changeFiter()" />
+                            <label class="custom-switch-btn" for="cbDlc">
+
+                            </label>
+                        </div>
+                        <label for="cbDlc">
+                            Hide DLC Related
+                        </label>
+                    </div>
+
+
+
+
+
+                    <div class="form-check col-sm-4" style="padding: 5px 0px;">
+
+                        <div class="custom-switch">
+
+                            <input type="checkbox" class="custom-switch-input" id="cbNotObtained"
+                                   [(ngModel)]="filter.onlyNotObtained" (ngModelChange)="changeFiter()" />
+                            <label class="custom-switch-btn" for="cbNotObtained">
+
+                            </label>
+                        </div>
+                        <label for="cbNotObtained">
+                            Show Only Armor Not Obtained
+                        </label>
+
                     </div>
                 </div>
             </div>
