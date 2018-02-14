@@ -177,22 +177,22 @@
       },
       {
         "name": "Lynel Hoof",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 2
       },
       {
         "name": "Lynel Hoof",
-        "quantity": 8,
+        "quantity": 4,
         "forLevel": 3
       },
       {
         "name": "Lynel Horn",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Lynel Horn",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 2
       },
       {
@@ -224,22 +224,22 @@
       },
       {
         "name": "Lynel Hoof",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 2
       },
       {
         "name": "Lynel Hoof",
-        "quantity": 8,
+        "quantity": 4,
         "forLevel": 3
       },
       {
         "name": "Lynel Horn",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Lynel Horn",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 2
       },
       {
@@ -271,22 +271,22 @@
       },
       {
         "name": "Lynel Hoof",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 2
       },
       {
         "name": "Lynel Hoof",
-        "quantity": 8,
+        "quantity": 4,
         "forLevel": 3
       },
       {
         "name": "Lynel Horn",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Lynel Horn",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 2
       },
       {
@@ -482,12 +482,12 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Fireproof Lizard",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Fireproof Lizard",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 2
       },
       {
@@ -497,7 +497,7 @@
       },
       {
         "name": "Moblin Fang",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 2
       },
       {
@@ -507,17 +507,17 @@
       },
       {
         "name": "Moblin Horn",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 1
       },
       {
         "name": "Smotherwing Butterfly",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 3
       },
       {
         "name": "Smotherwing Butterfly",
-        "quantity": 8,
+        "quantity": 5,
         "forLevel": 4
       }
     ]
@@ -534,22 +534,22 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Fireproof Lizard",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Fireproof Lizard",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 2
       },
       {
         "name": "Hinox Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 4
       },
       {
         "name": "Moblin Fang",
-        "quantity": 5,
+        "quantity": 4,
         "forLevel": 2
       },
       {
@@ -559,17 +559,17 @@
       },
       {
         "name": "Moblin Horn",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 1
       },
       {
         "name": "Smotherwing Butterfly",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 3
       },
       {
         "name": "Smotherwing Butterfly",
-        "quantity": 8,
+        "quantity": 5,
         "forLevel": 4
       }
     ]
@@ -586,22 +586,22 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Fireproof Lizard",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Fireproof Lizard",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 2
       },
       {
         "name": "Hinox Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 4
       },
       {
         "name": "Moblin Fang",
-        "quantity": 5,
+        "quantity": 4,
         "forLevel": 2
       },
       {
@@ -611,17 +611,17 @@
       },
       {
         "name": "Moblin Horn",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 1
       },
       {
         "name": "Smotherwing Butterfly",
-        "quantity": 5,
+        "quantity": 3,
         "forLevel": 3
       },
       {
         "name": "Smotherwing Butterfly",
-        "quantity": 8,
+        "quantity": 5,
         "forLevel": 4
       }
     ]
@@ -671,7 +671,7 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Amber",
-        "quantity": 30,
+        "quantity": 15,
         "forLevel": 4
       },
       {
@@ -718,7 +718,7 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Amber",
-        "quantity": 30,
+        "quantity": 15,
         "forLevel": 4
       },
       {
@@ -765,7 +765,7 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Amber",
-        "quantity": 30,
+        "quantity": 15,
         "forLevel": 4
       },
       {
@@ -847,7 +847,7 @@
       },
       {
         "name": "Molduga Guts",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 3
       }
     ]
@@ -899,7 +899,7 @@
       },
       {
         "name": "Molduga Guts",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 3
       }
     ]
@@ -951,7 +951,7 @@
       },
       {
         "name": "Molduga Guts",
-        "quantity": 3,
+        "quantity": 2,
         "forLevel": 3
       }
     ]
@@ -1139,7 +1139,7 @@
       },
       {
         "name": "Sunset Firefly",
-        "quantity": 3,
+        "quantity": 5,
         "forLevel": 2
       }
     ]
@@ -1186,7 +1186,7 @@
       },
       {
         "name": "Sunset Firefly",
-        "quantity": 3,
+        "quantity": 5,
         "forLevel": 2
       }
     ]
@@ -1233,7 +1233,7 @@
       },
       {
         "name": "Sunset Firefly",
-        "quantity": 3,
+        "quantity": 5,
         "forLevel": 2
       }
     ]
@@ -1401,7 +1401,7 @@
       },
       {
         "name": "Hinox Guts",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 3
       },
       {
@@ -1453,7 +1453,7 @@
       },
       {
         "name": "Hinox Guts",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 3
       },
       {
@@ -1505,7 +1505,7 @@
       },
       {
         "name": "Hinox Guts",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 3
       },
       {
@@ -3055,7 +3055,7 @@
     "listOfUpgradeMaterials": [
       {
         "name": "Amber",
-        "quantity": 3,
+        "quantity": 5,
         "forLevel": 1
       },
       {
@@ -3179,7 +3179,7 @@
       },
       {
         "name": "Opal",
-        "quantity": 3,
+        "quantity": 5,
         "forLevel": 1
       },
       {
@@ -3843,7 +3843,7 @@
       },
       {
         "name": "Hinox Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 3
       },
       {
@@ -3858,7 +3858,7 @@
       },
       {
         "name": "Lynel Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 4
       },
       {
@@ -3884,18 +3884,18 @@
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
-        "name": "Dinraal's Claw",
+        "name": "Naydra's Claw",
         "quantity": 1,
         "forLevel": 2
       },
       {
-        "name": "Dinraal's Scale",
+        "name": "Naydra's Scale",
         "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Hinox Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 3
       },
       {
@@ -3910,11 +3910,11 @@
       },
       {
         "name": "Lynel Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 4
       },
       {
-        "name": "Shard of Dinraal's Fang",
+        "name": "Shard of Naydra's Fang",
         "quantity": 1,
         "forLevel": 3
       },
@@ -3936,18 +3936,18 @@
     "currentLevel": 0,
     "listOfUpgradeMaterials": [
       {
-        "name": "Dinraal's Claw",
+        "name": "Farosh's Claw",
         "quantity": 1,
         "forLevel": 2
       },
       {
-        "name": "Dinraal's Scale",
+        "name": "Farosh's Scale",
         "quantity": 1,
         "forLevel": 1
       },
       {
         "name": "Hinox Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 3
       },
       {
@@ -3962,11 +3962,11 @@
       },
       {
         "name": "Lynel Guts",
-        "quantity": 5,
+        "quantity": 2,
         "forLevel": 4
       },
       {
-        "name": "Shard of Dinraal's Fang",
+        "name": "Shard of Farosh's Fang",
         "quantity": 1,
         "forLevel": 3
       },
