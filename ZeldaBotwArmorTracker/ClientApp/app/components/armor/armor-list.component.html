@@ -22,91 +22,100 @@
     </p>
     <p>On the left, you can find a list of all the materials needed to fully upgrade every armor you marked as obtained.</p>
     <p>The web site will save locally your modifications, so if you use it again you can resume your work. </p>
-
+    <p>Any feedbacks? Reach out to me on <a href="https://www.reddit.com/user/leojesus/" target="_blank">reddit</a></p>
+    <div class="alert alert-info col-sm-12" role="alert">
+        <h4>Updates!</h4>
+        <ul>
+            <li>Added DLC information and filter</li>
+            <li>Added ability to switch between all materials and materials by level on the material list for each armor</li>
+            <li>Added filter to show only armors not yet obtained</li>
+            <li>Added a donate button =). If someone can try to see if it works...</li>
+        </ul>
+    </div>
 
     <armor-filter></armor-filter>
     <br />
-    <div class="armor-list">
-        <div class="card" *ngFor="let armor of filteredArmorList;let idx = index;">
-            <div class="card-header">
+    <div class="armor-list row">
+            
+        <div class="col-sm-4" *ngFor="let armor of filteredArmorList;let idx = index;">
+            <div class="card" >
+                <div class="card-header">
 
-                <div class="custom-switch">
-                    <!--<input class="custom-switch-input" id="armor-material-check-{{idx}}" type="checkbox" [(ngModel)]="armor.showTotalMaterials">-->
+                    <div class="custom-switch">
+                        <input type="checkbox" class="custom-switch-input" id="armor-obtained-{{idx}}"
+                               [(ngModel)]="armor.obtained" (ngModelChange)="changeObtained(armor)" />
+                        <label class="custom-switch-btn" for="armor-obtained-{{idx}}">
 
-
-                    <input type="checkbox" class="custom-switch-input" id="armor-obtained-{{idx}}"
-                           [(ngModel)]="armor.obtained" (ngModelChange)="changeObtained(armor)" />
-                    <label class="custom-switch-btn" for="armor-obtained-{{idx}}">
-
+                        </label>
+                    </div>
+                    <label for="armor-obtained-{{idx}}">
+                        Already Obtained?
                     </label>
+                    <img *ngIf="armor.amiiboRelated" title="This armor is obtained using an Amiibo" class="amiibo-img" src="/images/amiibo.png" />
+                    <p *ngIf="armor.dlcRelated"
+                       title="This armor is obtained on a DLC"
+                       class="dlc lead">DLC</p>
                 </div>
-                <label for="armor-obtained-{{idx}}">
-                    Already Obtained?
-                </label>
-                <img *ngIf="armor.amiiboRelated" title="This armor is obtained using an Amiibo" class="amiibo-img" src="/images/amiibo.png" />
-                <p *ngIf="armor.dlcRelated"
-                   title="This armor is obtained on a DLC"
-                   class="dlc lead">DLC</p>
-            </div>
-            <div class="card-body">
+                <div class="card-body">
 
-                <h5 class="card-title" style="margin:0;">
-                    <a target="_blank" href="{{armor.externalLink}}">{{armor.name}}</a>
-                </h5>
-                <armor-star [(ngModel)]="armor.currentLevel" (ngModelChange)="changeLevel(armor)"
-                            *ngIf="armor.isUpgradable" [disable]="!armor.obtained"></armor-star>
-                <img class="armor-img" src="{{armor.imagePath}}" alt="{{armor.name}}">
-            </div>
-            <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length == 0 && armor.isUpgradable">
-                Upgrade completed!
-            </div>
-            <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length == 0 && !armor.isUpgradable">
-                Cannot be upgraded.
-            </div>
-            <!--<div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length > 0">
-                <ul *ngIf=" armor.groupedMaterials.length > 0">
-                    <li *ngFor="let material of armor.groupedMaterials">
-                        <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
-                    </li>
-                </ul>
-            </div>-->
-            <div class="card-footer text-muted" *ngIf="armor.groupedMaterials.length > 0">
-                <!--<button *ngIf="armor.showTotalMaterials" type="button" (click)="showMaterialsByLevel(armor)" class="btn btn-link">Show Materials By Level</button>
-                <button *ngIf="!armor.showTotalMaterials" type="button" (click)="showAllMaterials(armor)" class="btn btn-link">Show All Materials For Max Level</button>-->
-                <div class="custom-switch">
-                    <input class="custom-switch-input"
-                           id="armor-material-check-{{idx}}" type="checkbox"
-                           [(ngModel)]="armor.showTotalMaterials"
-                           (ngModelChange)="changeMaterialDisplay(armor)">
-                    <label class="custom-switch-btn" for="armor-material-check-{{idx}}">
+                    <h5 class="card-title" style="margin:0;">
+                        <a target="_blank" href="{{armor.externalLink}}">{{armor.name}}</a>
+                    </h5>
+                    <armor-star [(ngModel)]="armor.currentLevel" (ngModelChange)="changeLevel(armor)"
+                                *ngIf="armor.isUpgradable" [disable]="!armor.obtained"></armor-star>
+                    <img class="armor-img" src="{{armor.imagePath}}" alt="{{armor.name}}">
+                </div>
+                <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length == 0 && armor.isUpgradable">
+                    Upgrade completed!
+                </div>
+                <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length == 0 && !armor.isUpgradable">
+                    Cannot be upgraded.
+                </div>
+                <!--<div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length > 0">
+            <ul *ngIf=" armor.groupedMaterials.length > 0">
+                <li *ngFor="let material of armor.groupedMaterials">
+                    <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
+                </li>
+            </ul>
+        </div>-->
+                <div class="card-footer text-muted" *ngIf="armor.groupedMaterials.length > 0">
+                    <!--<button *ngIf="armor.showTotalMaterials" type="button" (click)="showMaterialsByLevel(armor)" class="btn btn-link">Show Materials By Level</button>
+            <button *ngIf="!armor.showTotalMaterials" type="button" (click)="showAllMaterials(armor)" class="btn btn-link">Show All Materials For Max Level</button>-->
+                    <div class="custom-switch">
+                        <input class="custom-switch-input"
+                               id="armor-material-check-{{idx}}" type="checkbox"
+                               [(ngModel)]="armor.showTotalMaterials"
+                               (ngModelChange)="changeMaterialDisplay(armor)">
+                        <label class="custom-switch-btn" for="armor-material-check-{{idx}}">
 
+                        </label>
+                    </div>
+                    <label for="armor-material-check-{{idx}}">
+                        <ng-container *ngIf="!armor.showTotalMaterials">
+                            Show All Materials For Max Level
+                        </ng-container>
+                        <ng-container *ngIf="armor.showTotalMaterials">
+                            Show Materials By Level
+                        </ng-container>
                     </label>
-                </div>
-                <label for="armor-material-check-{{idx}}">
+                    <hr />
+                    <ul *ngIf="armor.showTotalMaterials">
+                        <li *ngFor="let material of armor.groupedMaterials">
+                            <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
+                        </li>
+                    </ul>
                     <ng-container *ngIf="!armor.showTotalMaterials">
-                        Show All Materials For Max Level
+                        <ng-container *ngFor="let level of armor.remainingLevelArray">
+                            <span>Level {{level}}</span>
+                            <ul>
+                                <li *ngFor="let material of armor.materialsByLevel(level)">
+                                    <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
+                                </li>
+                            </ul>
+                        </ng-container>
                     </ng-container>
-                    <ng-container *ngIf="armor.showTotalMaterials">
-                        Show Materials By Level
-                    </ng-container>
-                </label>
-                <hr />
-                <ul *ngIf="armor.showTotalMaterials">
-                    <li *ngFor="let material of armor.groupedMaterials">
-                        <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
-                    </li>
-                </ul>
-                <ng-container *ngIf="!armor.showTotalMaterials">
-                    <ng-container *ngFor="let level of armor.remainingLevelArray">
-                        <span>Level {{level}}</span>
-                        <ul>
-                            <li *ngFor="let material of armor.materialsByLevel(level)">
-                                <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
-                            </li>
-                        </ul>
-                    </ng-container>
-                </ng-container>
 
+                </div>
             </div>
         </div>
     </div>

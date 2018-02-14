@@ -350,7 +350,7 @@
         "forLevel": 3
       },
       {
-        "name": "Icy Lizalfos Tai",
+        "name": "Icy Lizalfos Tail",
         "quantity": 3,
         "forLevel": 3
       },
@@ -397,7 +397,7 @@
         "forLevel": 3
       },
       {
-        "name": "Icy Lizalfos Tai",
+        "name": "Icy Lizalfos Tail",
         "quantity": 3,
         "forLevel": 3
       },
@@ -444,7 +444,7 @@
         "forLevel": 3
       },
       {
-        "name": "Icy Lizalfos Tai",
+        "name": "Icy Lizalfos Tail",
         "quantity": 3,
         "forLevel": 3
       },
@@ -1133,7 +1133,7 @@
         "forLevel": 3
       },
       {
-        "name": "Stealthfin Fish",
+        "name": "Stealthfin Trout",
         "quantity": 10,
         "forLevel": 4
       },
@@ -1180,7 +1180,7 @@
         "forLevel": 3
       },
       {
-        "name": "Stealthfin Fish",
+        "name": "Stealthfin Trout",
         "quantity": 10,
         "forLevel": 4
       },
@@ -1227,7 +1227,7 @@
         "forLevel": 3
       },
       {
-        "name": "Stealthfin Fish",
+        "name": "Stealthfin Trout",
         "quantity": 10,
         "forLevel": 4
       },
@@ -1781,12 +1781,12 @@
         "forLevel": 2
       },
       {
-        "name": "Naydra's Fang",
+        "name": "Shard of Naydra's Fang",
         "quantity": 2,
         "forLevel": 3
       },
       {
-        "name": "Naydra's Horn",
+        "name": "Shard of Naydra's Horn",
         "quantity": 2,
         "forLevel": 4
       },
@@ -1828,12 +1828,12 @@
         "forLevel": 2
       },
       {
-        "name": "Dinraal's Fang",
+        "name": "Shard of Dinraal's Fang",
         "quantity": 2,
         "forLevel": 3
       },
       {
-        "name": "Dinraal's Horn",
+        "name": "Shard of Dinraal's Horn",
         "quantity": 2,
         "forLevel": 4
       },
@@ -1891,17 +1891,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -1943,17 +1943,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -1995,17 +1995,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -2047,17 +2047,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -2099,17 +2099,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -2151,17 +2151,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -2203,17 +2203,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -2255,17 +2255,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -2307,17 +2307,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -3702,17 +3702,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -3754,17 +3754,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]
@@ -3806,17 +3806,17 @@
       },
       {
         "name": "Star Fragment",
-        "quantity": 2,
+        "quantity": 1,
         "forLevel": 2
       },
       {
         "name": "Star Fragment",
-        "quantity": 3,
+        "quantity": 1,
         "forLevel": 3
       },
       {
         "name": "Star Fragment",
-        "quantity": 4,
+        "quantity": 1,
         "forLevel": 4
       }
     ]

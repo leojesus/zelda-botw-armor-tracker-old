@@ -27,7 +27,7 @@ export class ArmorListComponent implements OnInit {
         let userArmorJson: string = <string>localStorage.getItem("armors");
         let userArmorList: UserArmor[] = JSON.parse(userArmorJson);
 
-        let apiUrl = './armor.json?vaswr=sas';
+        let apiUrl = './armor.json?vaswr=sa98944s';
         this._http.get(this.baseUrl + apiUrl).subscribe(result => {
             this.armorList = result.json() as Armor[];
 
