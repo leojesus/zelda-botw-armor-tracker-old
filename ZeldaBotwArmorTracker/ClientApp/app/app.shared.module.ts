@@ -11,6 +11,7 @@ import { ArmorListComponent } from './components/armor/armor-list.component';
 import { StarComponent } from './components/shared/star/star.component';
 import { MaterialResultComponent } from './components/armor/material-result/material-result.component';
 import { ArmorFilterComponent } from './components/armor/armor-filter/armor-filter.component';
+import { ToggleComponent } from './components/shared/toggle/toggle.component';
 
 @NgModule({
     declarations: [
@@ -20,7 +21,8 @@ import { ArmorFilterComponent } from './components/armor/armor-filter/armor-filt
         HomeComponent,
         StarComponent,
         MaterialResultComponent,
-        ArmorFilterComponent
+        ArmorFilterComponent,
+        ToggleComponent
     ],
     imports: [
         CommonModule,

@@ -1,13 +1,7 @@
 .armor-list .card {
-    /*margin: 0 20px 20px 0;*/
     margin-top: 20px;
     min-height: 280px;
-    /*width: 20rem;*/
-    /*width: 320px;*/
-    /*float: left;*/
     font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    /*background-color:#b3f4b3;*/
-    /*#f0f4b3*/
 }
 
 .armor-list .card-header {
@@ -60,14 +54,9 @@
         font-size: 12px;
     }
 
-.armor-list .custom-switch {
-    padding-right: 3px;
-    float: left;
-}
-
-.armor-list .card-footer hr {
-    margin: 2px;
-}
+    .armor-list .card-footer hr {
+        margin: 2px;
+    }
 
 .armor-list .card-body {
     padding-bottom: 5px;
@@ -90,129 +79,3 @@
     overflow: auto;
     margin-top: 40px;
 }
-
-/*.card-footer .material-name {
-    float: left;
-    max-width: 100px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.card-footer .material-qtd {
-  
-}*/
-
-
-
-
-.custom-switch .custom-switch-input {
-    display: none
-}
-
-    .custom-switch .custom-switch-input, .custom-switch .custom-switch-input *, .custom-switch .custom-switch-input :after, .custom-switch .custom-switch-input :before, .custom-switch .custom-switch-input + .custom-switch-btn, .custom-switch .custom-switch-input:after, .custom-switch .custom-switch-input:before {
-        box-sizing: border-box
-    }
-
-        .custom-switch .custom-switch-input :after:selection, .custom-switch .custom-switch-input :before:selection, .custom-switch .custom-switch-input :selection, .custom-switch .custom-switch-input + .custom-switch-btn:selection, .custom-switch .custom-switch-input:after:selection, .custom-switch .custom-switch-input:before:selection, .custom-switch .custom-switch-input:selection {
-            background: 0 0
-        }
-
-        .custom-switch .custom-switch-input + .custom-switch-btn {
-            outline: 0;
-            display: inline-block;
-            position: relative;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-            cursor: pointer;
-            width: 42px;
-            height: 23px;
-            margin: 0;
-            padding: 4px;
-            /*background: #eceeef;*/
-            background: #aaaaaa;
-            border-radius: 76px;
-            transition: all .3s ease
-        }
-
-            .custom-switch .custom-switch-input + .custom-switch-btn:after, .custom-switch .custom-switch-input + .custom-switch-btn:before {
-                position: relative;
-                display: block;
-                content: "";
-                width: 15px;
-                height: 15px
-            }
-
-            .custom-switch .custom-switch-input + .custom-switch-btn:after {
-                left: 2px;
-                border-radius: 50%;
-                background: #fff;
-                transition: all .3s ease
-            }
-
-            .custom-switch .custom-switch-input + .custom-switch-btn:before {
-                display: none
-            }
-
-        .custom-switch .custom-switch-input:checked + .custom-switch-btn {
-            background: #5cb85c
-        }
-
-            .custom-switch .custom-switch-input:checked + .custom-switch-btn:after {
-                left: 18px
-            }
-
-            .custom-switch .custom-switch-input:checked + .custom-switch-btn ~ .custom-switch-content-checked {
-                opacity: 1;
-                height: auto
-            }
-
-            .custom-switch .custom-switch-input:checked + .custom-switch-btn ~ .custom-switch-content-unchecked, .custom-switch .custom-switch-input:not(:checked) + .custom-switch-btn ~ .custom-switch-content-checked {
-                display: none;
-                opacity: 0;
-                height: 0
-            }
-
-        .custom-switch .custom-switch-input:not(:checked) + .custom-switch-btn ~ .custom-switch-content-unchecked {
-            opacity: 1;
-            height: auto
-        }
-
-.custom-switch.custom-switch-label-io .custom-switch-input + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='38'%3E%3Ctext x='42.5' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EO%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-io .custom-switch-input:checked + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='38'%3E%3Ctext x='18.13333' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EI%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-onoff .custom-switch-input + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='38'%3E%3Ctext x='38.85714' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EOff%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-onoff .custom-switch-input:checked + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='38'%3E%3Ctext x='9.71429' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EOn%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-yesno .custom-switch-input + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='38'%3E%3Ctext x='38.85714' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3ENo%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-yesno .custom-switch-input:checked + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='68' height='38'%3E%3Ctext x='9.71429' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EYes%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-status .custom-switch-input + .custom-switch-btn {
-    width: 88px;
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='38'%3E%3Ctext x='38.85714' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EDisabled%3C/text%3E%3C/svg%3E")
-}
-
-.custom-switch.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='88' height='38'%3E%3Ctext x='9.71429' y='23.75' font-size='12px' font-family='-apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif' fill='%23fff'%3EEnabled%3C/text%3E%3C/svg%3E")
-}
-
-    .custom-switch.custom-switch-label-status .custom-switch-input:checked + .custom-switch-btn:after {
-        left: 50px
-    }
