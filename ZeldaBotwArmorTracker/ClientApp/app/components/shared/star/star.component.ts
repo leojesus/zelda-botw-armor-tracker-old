@@ -1,4 +1,4 @@
-import { Component, Input, OnChanges, Output, EventEmitter, forwardRef } from "@angular/core";
+import { Component, Input, forwardRef } from "@angular/core";
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from "@angular/forms";
 
 
@@ -41,7 +41,6 @@ export class StarComponent implements  ControlValueAccessor {
     }
 
     public level: number;
-    @Output() public notify: EventEmitter<number> = new EventEmitter<number>();
     @Input() disable: boolean;
 
     private maxLevel: number = 4;
