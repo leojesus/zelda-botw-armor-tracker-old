@@ -43,7 +43,6 @@
 
     .armor-list .card-footer button {
         font-size: 12px;
-        padding: 0;
     }
 
     .armor-list .card-footer span {
@@ -79,3 +78,18 @@
     overflow: auto;
     margin-top: 40px;
 }
+
+
+.nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: #dee2e6 #dee2e6 #f7f7f7;
+}
+
+button.nav-link {
+    cursor: pointer;
+}
+
+    button.nav-link:focus {
+        outline: 0;
+    }

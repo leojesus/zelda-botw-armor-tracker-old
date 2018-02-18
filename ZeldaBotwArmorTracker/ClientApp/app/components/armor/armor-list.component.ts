@@ -1,10 +1,13 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import * as _ from "lodash";
+import * as $ from "jquery";
 import { Http } from '@angular/http';
 import { AnalyticsService } from '../analytics/analytics.service';
 import { ArmorMaterialService } from './armor-material.service';
 import { ArmorFilterService } from './armor-filter/armor-filter.service';
 import { Armor } from './Armor';
+import { JsonObject, JsonProperty, JsonConvert } from "json2typescript";
+import { Material } from './Material';
 
 
 @Component({
@@ -30,20 +33,29 @@ export class ArmorListComponent implements OnInit {
         let apiUrl = './armor.json?vaswr=sa98944s';
         this._http.get(this.baseUrl + apiUrl).subscribe(result => {
             this.armorList = result.json() as Armor[];
-
+            console.log('leu');
             this.armorList = _.orderBy(this.armorList, 'name');
             userArmorList = _.orderBy(userArmorList, 'name');
             _.merge(this.armorList, userArmorList);
+            console.log('mergeou');
             this.armorList = _.map(this.armorList).map(function (x) {
                 let armor: Armor = Object.assign(new Armor, x);
                 armor.updateGroupedMaterials();
+                armor.updateMaterialsByLevel();
+
+                armor.listOfUpgradeMaterials = _.map(x.listOfUpgradeMaterials).map(function (mat) {
+                    return Object.assign(new Material, mat);
+                });
+
+
                 return armor;
             });
             this.armorList = _.orderBy(this.armorList, ['isUpgradable', 'name'], ['desc', 'asc']);
             this.filteredArmorList = this.armorList;
             let filteredArmor = <Armor[]>_(this.armorList)
                 .filter(function (o) { return o.isUpgradable && o.obtained }).value();
-            this.data.changeMessage(filteredArmor);
+         //   this.data.changeMessage(filteredArmor);
+            console.log('retornou');
         }, error => console.error(error));
 
 
@@ -64,6 +76,7 @@ export class ArmorListComponent implements OnInit {
     public filteredArmorList: Armor[];
 
     saveInfo() {
+
         var result = JSON.stringify(this.armorList, function (key, val) {
             let property: string = key;
             if ((property !== 'imagePath') && (property !== 'setName')
@@ -78,6 +91,7 @@ export class ArmorListComponent implements OnInit {
     }
 
     changeObtained(armor: Armor) {
+        console.log('obtained');
         if (armor.obtained) {
             this._analyticsService.armorObtained(armor.name);
         } else {
@@ -97,13 +111,22 @@ export class ArmorListComponent implements OnInit {
         this.saveInfo();
     }
 
-    changeMaterialDisplay(armor: Armor) {
-        if (armor.showTotalMaterials) {
+    changeMaterialDisplayToAll(armor: Armor, idx: number) {
+        if (!armor.showTotalMaterials) {
+            armor.showTotalMaterials = true;
             this._analyticsService.materialToDisplayTotal(armor.name);
-        } else {
-            this._analyticsService.materialToDisplayByLevel(armor.name);
+            this.saveInfo();
+            $('#all-materials-' + idx).tab('show');
         }
-        this.saveInfo();
+    }
+
+    changeMaterialDisplayToByLevel(armor: Armor, idx: number) {
+        if (armor.showTotalMaterials) {
+            armor.showTotalMaterials = false;
+            this._analyticsService.materialToDisplayByLevel(armor.name);
+            this.saveInfo();
+            $('#by-level-' + idx).tab('show');
+        }
     }
 
     showMaterialsByLevel(armor: Armor) {

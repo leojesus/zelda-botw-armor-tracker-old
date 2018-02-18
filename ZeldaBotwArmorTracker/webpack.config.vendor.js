@@ -15,8 +15,9 @@ const treeShakableModules = [
     'zone.js',
 ];
 const nonTreeShakableModules = [
-    'bootstrap',
+    //'bootstrap',
     'bootstrap/dist/css/bootstrap.css',
+    'bootstrap/dist/js/bootstrap.bundle.min.js',
     'font-awesome/css/font-awesome.min.css',
     'es6-promise',
     'es6-shim',

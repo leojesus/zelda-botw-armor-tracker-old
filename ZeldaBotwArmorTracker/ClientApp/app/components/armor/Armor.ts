@@ -11,6 +11,7 @@ export class Armor {
     private _currentLevel: number = 0;
     listOfUpgradeMaterials: Material[];
     groupedMaterials: Material[];
+    materialsByLevel: Map<number, Material[]>;
     showTotalMaterials: boolean = false;
     dlcRelated: boolean;
 
@@ -50,16 +51,19 @@ export class Armor {
         });
     }
 
-    public materialsByLevel(level: number) {
-        var output =
-            _(this.listOfUpgradeMaterials)
-                .filter(function (o) { return o.forLevel == level })
+    public updateMaterialsByLevel() {
+
+        this.materialsByLevel = new Map();
+        for (let i: number = 1; i <= 4; i++) {
+
+            let materialsForLevel = _(this.listOfUpgradeMaterials)
+                .filter(function (o) { return o.forLevel == i })
                 .value();
-        //this.groupedMaterials = _.map(output).map(function (x) {
-        //    return Object.assign(new Material, x);
-        //});
-        return output;
+            this.materialsByLevel.set(i, materialsForLevel);
+        }
     }
+
+
 
     constructor() {
     }

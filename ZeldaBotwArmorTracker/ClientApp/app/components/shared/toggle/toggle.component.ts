@@ -32,7 +32,7 @@ export class ToggleComponent implements ControlValueAccessor {
 
     writeValue(obj: any): void {
         if (obj !== undefined && obj !== null) {
-            this.value = obj;
+            this._value = obj;
         }
     }
     propagateChange = (_: any) => { };

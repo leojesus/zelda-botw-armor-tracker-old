@@ -1,17 +1,11 @@
-
-
 <nav class="col-md-2 d-none d-md-block bg-light sidebar">
     <material-result></material-result>
 </nav>
-
-
-
-
 <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4 col-sm-6">
     <h2>Welcome to the BOTW Armor Tracker</h2>
     <p>
         This web site is designed to help you track which armors you have already collected,
-        the current level of each of them and the necessary items to fully upgrade it. <b>You also can change to display the material by upgrade level</b>
+        the current level of each of them and the necessary items to fully upgrade it. You also can change to display the material by upgrade level.
     </p>
     <p>
         On each card you will find a armor. To change the level, first mark it as obtained.
@@ -25,17 +19,15 @@
     <div class="alert alert-info col-sm-12" role="alert">
         <h4>Updates!</h4>
         <ul>
-            <li>Added DLC information and filter</li>
-            <li>Added ability to switch between all materials and materials by level on the material list for each armor</li>
-            <li>Added filter to show only armors not yet obtained</li>
-            <li>Added a donate button =). If someone can try to see if it works...</li>
+            <li>Improved the performance of the application</li>
+            <li>Fix the links for the materials</li>
+            <li>Thanks <b>Jesse Miller</b> and <b>Lindsey Carboneau</b> for the donations. It means a lot!</li>
         </ul>
     </div>
 
     <armor-filter></armor-filter>
     <br />
     <div class="armor-list row">
-
         <div class="col-sm-4" *ngFor="let armor of filteredArmorList;let idx = index;">
             <div class="card">
                 <div class="card-header">
@@ -62,37 +54,47 @@
                 <div class="card-footer text-muted" *ngIf=" armor.groupedMaterials.length == 0 && !armor.isUpgradable">
                     Cannot be upgraded.
                 </div>
-
                 <div class="card-footer text-muted" *ngIf="armor.groupedMaterials.length > 0">
 
-                    <toggle label="{{armor.showTotalMaterials ? 'Show Materials By Level':'Show All Materials For Max Level'}}"
-                            [(ngModel)]="armor.showTotalMaterials"
-                            (ngModelChange)="changeMaterialDisplay(armor)"></toggle>
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <button class="nav-link {{armor.showTotalMaterials ? '':'active'}}" id="by-level-{{idx}}"
+                                    (click)="changeMaterialDisplayToByLevel(armor, idx)">
+                                By Level
+                            </button>
+                        </li>
 
-
-                    <hr />
-                    <ul *ngIf="armor.showTotalMaterials">
-                        <li *ngFor="let material of armor.groupedMaterials">
-                            <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
+                        <li class="nav-item">
+                            <button class="nav-link {{armor.showTotalMaterials ? 'active':''}}" id="all-materials-{{idx}}"
+                                    (click)="changeMaterialDisplayToAll(armor, idx)">
+                                All Materials
+                            </button>
                         </li>
                     </ul>
-                    <ng-container *ngIf="!armor.showTotalMaterials">
-                        <ng-container *ngFor="let level of armor.remainingLevelArray">
-                            <span>Level {{level}}</span>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show {{armor.showTotalMaterials ? 'active':''}}" id="all-materials-{{idx}}" role="tabpanel" style="padding-top:5px;">
                             <ul>
-                                <li *ngFor="let material of armor.materialsByLevel(level)">
+                                <li *ngFor="let material of armor.groupedMaterials" style="padding-bottom:2px;">
                                     <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
                                 </li>
                             </ul>
-                        </ng-container>
-                    </ng-container>
+                        </div>
+                        <div class="tab-pane fade show {{armor.showTotalMaterials ? '':'active'}}" id="by-level-{{idx}}" role="tabpanel">
 
+                            <ng-container *ngFor="let materialByLevel of armor.materialsByLevel | mapValues">
+                                <ng-container *ngIf="armor.currentLevel < materialByLevel.key">
+                                    <span>Level {{materialByLevel.key}}</span>
+                                    <ul>
+                                        <li *ngFor="let material of materialByLevel.val">
+                                            <a target="_blank" href="{{material.externalLink}}">{{material.name}}</a> x{{material.quantity}}
+                                        </li>
+                                    </ul>
+                                </ng-container>
+                            </ng-container>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </main>
-
-
-

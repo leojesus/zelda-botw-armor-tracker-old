@@ -60,8 +60,11 @@
     "zone.js": "0.8.12"
   },
   "dependencies": {
+    "@types/bootstrap": "^3.3.38",
+    "@types/jquery": "^3.3.0",
     "@types/lodash": "^4.14.98",
     "font-awesome": "^4.7.0",
+    "json2typescript": "^1.0.5",
     "lodash": "^4.17.4",
     "popper.js": "^1.12.9"
   }

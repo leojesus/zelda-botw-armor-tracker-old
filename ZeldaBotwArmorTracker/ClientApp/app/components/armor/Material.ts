@@ -6,4 +6,8 @@ export class Material {
     get externalLink(): string {
         return "https://www.zeldadungeon.net/wiki/" + this.name.replace(" ", "_");
     }
+
+    constructor() {
+      
+    }
 }
