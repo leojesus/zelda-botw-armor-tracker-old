@@ -59,6 +59,10 @@ export class Armor {
             let materialsForLevel = _(this.listOfUpgradeMaterials)
                 .filter(function (o) { return o.forLevel == i })
                 .value();
+            materialsForLevel = _.map(materialsForLevel).map(function (x) {
+                return Object.assign(new Material, x);
+            });
+
             this.materialsByLevel.set(i, materialsForLevel);
         }
     }

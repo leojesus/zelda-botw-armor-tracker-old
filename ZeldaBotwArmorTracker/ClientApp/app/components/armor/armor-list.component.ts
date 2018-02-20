@@ -1,6 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import * as _ from "lodash";
 import * as $ from "jquery";
+import * as bootstrap from "bootstrap";
 import { Http } from '@angular/http';
 import { AnalyticsService } from '../analytics/analytics.service';
 import { ArmorMaterialService } from './armor-material.service';
@@ -33,11 +34,9 @@ export class ArmorListComponent implements OnInit {
         let apiUrl = './armor.json?vaswr=sa98944s';
         this._http.get(this.baseUrl + apiUrl).subscribe(result => {
             this.armorList = result.json() as Armor[];
-            console.log('leu');
             this.armorList = _.orderBy(this.armorList, 'name');
             userArmorList = _.orderBy(userArmorList, 'name');
             _.merge(this.armorList, userArmorList);
-            console.log('mergeou');
             this.armorList = _.map(this.armorList).map(function (x) {
                 let armor: Armor = Object.assign(new Armor, x);
                 armor.updateGroupedMaterials();
@@ -54,8 +53,7 @@ export class ArmorListComponent implements OnInit {
             this.filteredArmorList = this.armorList;
             let filteredArmor = <Armor[]>_(this.armorList)
                 .filter(function (o) { return o.isUpgradable && o.obtained }).value();
-         //   this.data.changeMessage(filteredArmor);
-            console.log('retornou');
+         this.data.changeMessage(filteredArmor);
         }, error => console.error(error));
 
 
@@ -83,7 +81,7 @@ export class ArmorListComponent implements OnInit {
                 && (property !== 'isUpgradable') && (property !== 'listOfUpgradeMaterials')
                 && (property !== 'amiiboRelated')
                 && (property !== 'dlcRelated')
-                && (property !== 'listOfUpgradeMaterials')
+                && (property !== 'materialsByLevel')
                 && (property !== 'groupedMaterials'))
                 return val;
         });
@@ -91,7 +89,6 @@ export class ArmorListComponent implements OnInit {
     }
 
     changeObtained(armor: Armor) {
-        console.log('obtained');
         if (armor.obtained) {
             this._analyticsService.armorObtained(armor.name);
         } else {
