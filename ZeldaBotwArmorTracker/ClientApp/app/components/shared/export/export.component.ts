@@ -1,6 +1,7 @@
 import { Component } from "@angular/core";
 import 'rxjs/Rx';
 import { ImportService } from "./import.service";
+import { AnalyticsService } from "../../analytics/analytics.service";
 
 
 @Component({
@@ -10,7 +11,8 @@ import { ImportService } from "./import.service";
 })
 export class ExportComponent {
 
-    constructor(private _importService: ImportService) { }
+    constructor(private _importService: ImportService,
+        private _analyticsService: AnalyticsService) { }
 
     downloadFile() {
         var text: string = <string>localStorage.getItem("armors");
@@ -24,17 +26,16 @@ export class ExportComponent {
 
         element.click();
         document.body.removeChild(element);
+        this._analyticsService.exportFile();
     }
 
     resetInfo() {
         if (confirm('Are you sure you want to reset your information? Your current modifications will be lost.')) {
             localStorage.removeItem("armors");
+            this._analyticsService.resetSettings();
             window.location.reload();
         }
     }
-
-
-
 
     openFile(event: any) {
         // eslint-disable-line no-unused-vars
@@ -47,14 +48,4 @@ export class ExportComponent {
         }
         reader.readAsText(input.files[0]);
     }
-
-
-    upload(fileText: any) {
-        var data = JSON.parse(JSON.parse(fileText));
-        //Object.keys(data).forEach(function (k) {
-        //    localStorage.setItem(k, data[k]);
-        //});
-        window.location.reload();
-    }
-
 }

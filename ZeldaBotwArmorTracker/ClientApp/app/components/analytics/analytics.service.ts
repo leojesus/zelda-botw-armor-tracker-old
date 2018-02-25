@@ -20,8 +20,26 @@ export class AnalyticsService {
         this.sendDataToGa("material-total", armorName);
     }
 
+    importFile(): void {
+        this.sendDataToGaWihtoutLabel("import-file");
+    }
+
+    exportFile(): void {
+        this.sendDataToGaWihtoutLabel("export-file");
+    }
+
+    resetSettings(): void {
+        this.sendDataToGaWihtoutLabel("reset-settings");
+    }
+
     armorChangeLevel(armorName: string, level: number): void {
         this.sendDataToGaWithValue("armor-change-level", armorName, level);
+    }
+
+    private sendDataToGaWihtoutLabel(eventName: string): void {
+        dataLayer.push({
+            "event": eventName
+        });
     }
 
     private sendDataToGa(eventName: string, label: string): void {

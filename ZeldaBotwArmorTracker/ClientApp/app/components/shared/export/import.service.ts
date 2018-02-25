@@ -2,6 +2,7 @@ import { Injectable } from "@angular/core";
 import { Observable } from "rxjs/Observable";
 import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 import { Armor } from "../../armor/Armor";
+import { AnalyticsService } from "../../analytics/analytics.service";
 
 @Injectable()
 export class ImportService {
@@ -10,7 +11,7 @@ export class ImportService {
 
     currentMessage = this.messageSource.asObservable();
 
-    constructor() { }
+    constructor(private _analyticsService: AnalyticsService) { }
 
     importFileContent(fileContent: string) {
         let armorList: Armor[] = [];
@@ -27,6 +28,7 @@ export class ImportService {
             return;
         }
         localStorage.setItem("armors", fileContent);
+        this._analyticsService.importFile();
         location.reload();
     }
 }
