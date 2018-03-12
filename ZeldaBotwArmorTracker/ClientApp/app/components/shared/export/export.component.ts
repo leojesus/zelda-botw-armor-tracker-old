@@ -38,7 +38,6 @@ export class ExportComponent {
     }
 
     openFile(event: any) {
-        // eslint-disable-line no-unused-vars
         var input = event.target;
         var reader = new FileReader();
         reader.onload = () => {
