@@ -9,7 +9,7 @@ substring(
             Select 
 			
 			CASE WHEN COUNT(m1.name) > 0 THEN 
-			' {"name": "'+m1.name+'","quantity": '+CONVERT(VARCHAR,m1.quantity)+',"forLevel":'+CONVERT(VARCHAR,m1.forLevel)+'},' -- AS [text()]
+			' {"name": "'+m1.name+'","quantity ": '+CONVERT(VARCHAR,m1.quantity)+',"forLevel":'+CONVERT(VARCHAR,m1.forLevel)+'},' -- AS [text()]
             ELSE '' END 
 			From dbo.Material M1
             Where M1.armorId = a.id
