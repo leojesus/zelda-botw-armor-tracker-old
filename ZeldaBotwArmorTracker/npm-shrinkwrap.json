@@ -152,7 +152,7 @@
     "@types/bootstrap": {
       "version": "3.3.38",
       "resolved": "https://registry.npmjs.org/@types/bootstrap/-/bootstrap-3.3.38.tgz",
-      "integrity": "sha512-4xQW+vu2UTtQZstpNcyoJQDuTT6kLb/Cpi8pF10JZtUtlqoCrDRJDTVeJ9tU6GQIi8tnwR6cNPu65F/pc8v1PA==",
+      "integrity": "sha1-G35NzJDPcmgqCiecBIDVC2WbiNo=",
       "requires": {
         "@types/jquery": "3.3.0"
       }
@@ -172,12 +172,12 @@
     "@types/jquery": {
       "version": "3.3.0",
       "resolved": "https://registry.npmjs.org/@types/jquery/-/jquery-3.3.0.tgz",
-      "integrity": "sha512-szaKV2OQgwxYTGTY6qd9eeBfGGCaP7n2OGit4JdbOcfGgc9VWjfhMhnu5AVNhIAu8WWDIB36q9dfPVba1fGeIQ=="
+      "integrity": "sha1-YxasIKGhPF1SGi3GYb78cYT3P1s="
     },
     "@types/lodash": {
       "version": "4.14.98",
       "resolved": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.98.tgz",
-      "integrity": "sha512-nVCBlQnsTw+769CM5Xt3jR/UAje48DLqEVQVtPLOILOR2AhCmZJ+LEefmbLVspm9U8YhNnT4afAtDsnIZpLogw=="
+      "integrity": "sha1-qvASrkQ+ZX54heYFpMGzQNsWBgk="
     },
     "@types/webpack-env": {
       "version": "1.13.0",
@@ -741,7 +741,7 @@
     "bootstrap": {
       "version": "4.0.0",
       "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-4.0.0.tgz",
-      "integrity": "sha512-gulJE5dGFo6Q61V/whS6VM4WIyrlydXfCgkE+Gxe5hjrJ8rXLLZlALq7zq2RPhOc45PSwQpJkrTnc2KgD6cvmA==",
+      "integrity": "sha1-zrA4QsFF/MG5tOFdoqBWVrpoRpo=",
       "dev": true
     },
     "brace-expansion": {
