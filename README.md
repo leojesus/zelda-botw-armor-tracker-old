@@ -14,5 +14,5 @@ On the left, you can find a list of all the materials needed to fully upgrade ev
 
 The web site will save locally your modifications, so if you use it again you can resume your work.
 
-# Any feedbacks? 
+# Any feedback? 
 Please comment here or you can find me on reddit https://www.reddit.com/user/leojesus/
